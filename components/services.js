@@ -12,7 +12,7 @@ const Services = () => {
           </p>
           <h3>
           Gerenciamento de projetos e suporte técnico e físico <br />{" "}
-            <span> para que o produto possa ser lançado com efetividade no mercado..</span>
+            <span> especializado, para que o seu produto possa ser entregue com efetividade no mercado!</span>
           </h3>
         </div>
         <div className="service-one__3-col">

@@ -11,13 +11,13 @@ const NavLinks = () => {
       <li>
       <ScrollLink
           activeClass="current"
-          to="home"
+          to="#"
           spy={true}
           smooth={true}
           offset={-70}
           duration={500}
         >
-          Quem Somos
+          Home
         </ScrollLink>
       </li>
       <li>
@@ -42,6 +42,18 @@ const NavLinks = () => {
           duration={500}
         >
           Serviços
+        </ScrollLink>
+      </li>
+      <li>
+      <ScrollLink
+          activeClass="current"
+          to="#"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          Representantes
         </ScrollLink>
       </li>
       <li>

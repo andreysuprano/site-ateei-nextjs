@@ -66,9 +66,36 @@ const Footer = () => {
 
             <Col sm={12} md={6} lg={6} xl={3}>
               <div className="footer-widget footer-widget__contact">
-                <h3 className="footer-widget__title">Contato</h3>
+                <h3 className="footer-widget__title">Matriz</h3>
 
-                <p>Matriz,Rua Com. Mariano Torres, 168 Campo Largo - PR</p>
+                <p>Rua Com. Mariano Torres, 168 Campo Largo - PR</p>
+                <ul className="footer-widget__contact-list list-unstyled">
+                  <li>
+                    <a href="mailto:your.info@gmail.com">
+                      <i className="themify-icon-email"></i>
+                      ateei@ateei.com.br
+                    </a>
+                  </li>
+                  <li>
+                    <a href="tel:55(41)3291-1600">
+                      <i className="themify-icon-headphone-alt"></i> +55 (41) 3291-1600
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i className="themify-icon-link"></i> www.ateei.com.br
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </Col>
+            <Col sm={12} md={6} lg={6} xl={3}>
+              <div className="footer-widget footer-widget__contact">
+                <h3 className="footer-widget__title">Filial</h3>
+
+                <p>P&D, Montagem e Produção Eletrônica
+R. Lídio Oltramari, 1628 - Unidade B - Fraron
+Cep: 85503-381 – Pato Branco | PR</p>
                 <ul className="footer-widget__contact-list list-unstyled">
                   <li>
                     <a href="mailto:your.info@gmail.com">

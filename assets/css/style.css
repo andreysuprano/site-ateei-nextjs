@@ -3189,3 +3189,11 @@ h6 {
   align-items: center;
   justify-content: center;
 }
+
+.institucional-text{
+  display: flex;
+  color: #FFF;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}

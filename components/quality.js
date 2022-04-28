@@ -59,11 +59,11 @@ const Quality = () => {
         <div className="footer-quality">
           <div className="quality-item">
             <img src={leadFree} alt="" />
-            <p>Nossos produtos são livres de chumbo<br></br> e não agridem o meio ambiente.</p>
+            <p>Podemos atender demandas de processos 100% lead free,<br></br>ou seja, livres de chumbo que nao agridem o meio ambiente.</p>
           </div>
           <div className="quality-item">
             <img src={protecao} alt="" />
-            <p>Protegemos a sua propriedade Intelectual.</p>
+            <p>Protegemos a sua propriedade intelectual, com contratos<br></br> idoneos de proteção;</p>
           </div>
         </div>
       </Container>

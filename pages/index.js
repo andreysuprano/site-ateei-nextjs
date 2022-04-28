@@ -5,6 +5,7 @@ import MobileNav from "@components/mobile-nav";
 import SliderOne from "@components/slider-one";
 import About from "@components/about";
 import Services from "@components/services";
+import Institutional from "@components/institucional";
 import Quality from "@components/quality";
 import ContactTop from "@components/contact-top";
 import ContactForm from "@components/contact-form";
@@ -20,6 +21,7 @@ const Index = () => {
       <About />
       <Services />
       <Quality />
+      <Institutional />
       <ContactTop />
       <ContactForm />
       <Subscribe />

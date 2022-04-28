@@ -118,13 +118,13 @@ export const SERVICE_DATA = [
     icon: "besit-icon-document",
     title: "Pesquisa e Desenvolvimento",
     text:
-      "Auxílio à desenvolvimento de projetos industriais e também parcerias na área acadêmica."
+      "Auxílio à desenvolvimento de projetos industriais."
   },
   {
     icon: "besit-icon-leader",
     title: "Recursos de Engenharia",
     text:
-      "Desenvolvimento, revisão e otimização de projetos."
+      "Auxilio no Desenvolvimento e Otimização de projetos."
   },
   {
     icon: "besit-icon-investor",
@@ -149,6 +149,27 @@ export const SERVICE_DATA = [
     title: "Qualidade",
     text:
       "Processo 100% auditado pelos mais rígidos padrões de qualidade, atendendo as normas ISO13485:2016 E ISO9001:2015 – BRTUV Certificadora."
+  }
+];
+
+export const MISSAO_DATA = [
+  {
+    icon: "besit-icon-document",
+    title: "Missão",
+    text:
+      "Oferecer serviços de montagem de placas eletrônicas e equipamentos eletrônicos com tecnologia e qualidade, suprindo a necessidade do mercado com preço justo e lucratividade."
+  },
+  {
+    icon: "besit-icon-leader",
+    title: "Visão",
+    text:
+      "Anualmente ter um crescimento em faturamento real mínimo de 10% baseado nos índices de inflação medidos pelo IPC-A."
+  },
+  {
+    icon: "besit-icon-investor",
+    title: "Valores",
+    text:
+      "Nossa proposta está baseada nos princípios da integridade, valorizando e desenvolvendo os colaboradores e os fornecedores."
   }
 ];
 
