@@ -33,7 +33,7 @@ const HeaderTwo = () => {
           </div>
 
           <NavLinks />
-          <div className="main-menu__two-btn-box">
+          {/* <div className="main-menu__two-btn-box">
             <ScrollLink
               activeClass="current"
               className="thm-btn"
@@ -46,7 +46,7 @@ const HeaderTwo = () => {
             >
               Free Consultant <i className="fa fa-arrow-circle-right"></i>
             </ScrollLink>
-          </div>
+          </div> */}
         </Container>
       </nav>
 
@@ -67,7 +67,7 @@ const HeaderTwo = () => {
           </div>
 
           <NavLinks />
-          <div className="main-menu__two-btn-box">
+          {/* <div className="main-menu__two-btn-box">
             <ScrollLink
               activeClass="current"
               className="thm-btn"
@@ -80,7 +80,7 @@ const HeaderTwo = () => {
             >
               Free Consultant <i className="fa fa-arrow-circle-right"></i>
             </ScrollLink>
-          </div>
+          </div> */}
         </Container>
       </nav>
     </>

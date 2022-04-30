@@ -45,16 +45,9 @@ const NavLinks = () => {
         </ScrollLink>
       </li>
       <li>
-      <ScrollLink
-          activeClass="current"
-          to="#"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
-          Representantes
-        </ScrollLink>
+      <Link href="/representantes">
+              <a>Representantes</a>
+            </Link>
       </li>
       <li>
         <ScrollLink

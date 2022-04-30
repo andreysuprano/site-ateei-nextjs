@@ -1,12 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import logoLight from "@images/logo-light.png";
-import footerGallery1 from "@images/resources/footer-g-1-1.jpg";
-import footerGallery2 from "@images/resources/footer-g-1-2.jpg";
-import footerGallery3 from "@images/resources/footer-g-1-3.jpg";
-import footerGallery4 from "@images/resources/footer-g-1-4.jpg";
-import footerGallery5 from "@images/resources/footer-g-1-5.jpg";
-import footerGallery6 from "@images/resources/footer-g-1-6.jpg";
+import astronaut from "@images/astronaut.png";
 const Footer = () => {
   return (
     <footer className="main-footer">
@@ -68,7 +63,7 @@ const Footer = () => {
               <div className="footer-widget footer-widget__contact">
                 <h3 className="footer-widget__title">Matriz</h3>
 
-                <p>Rua Com. Mariano Torres, 168 Campo Largo - PR</p>
+                <p>Rua Com. Mariano Torres, 168 - Ouro Verde, Campo Largo - PR</p>
                 <ul className="footer-widget__contact-list list-unstyled">
                   <li>
                     <a href="mailto:your.info@gmail.com">
@@ -93,9 +88,8 @@ const Footer = () => {
               <div className="footer-widget footer-widget__contact">
                 <h3 className="footer-widget__title">Filial</h3>
 
-                <p>P&D, Montagem e Produção Eletrônica
-R. Lídio Oltramari, 1628 - Unidade B - Fraron
-Cep: 85503-381 – Pato Branco | PR</p>
+                <p>
+R. Lídio Oltramari, 1628 - Unidade B - Fraron, Pato Branco - PR</p>
                 <ul className="footer-widget__contact-list list-unstyled">
                   <li>
                     <a href="mailto:your.info@gmail.com">
@@ -165,7 +159,9 @@ Cep: 85503-381 – Pato Branco | PR</p>
             <p>Copyright {new Date().getFullYear()} All Right Reserved</p>
             <ul className="list-unstyled footer-menu">
               <li>
-                <a href="https://supranodigital.com">Desenvolvido por Suprano Digital</a>
+                <a href="https://supranodigital.com">Desenvolvido por Suprano Digital
+                <img src={astronaut} alt="" style={{width:'50px', cursor:'pointer'}}/>
+                </a>
               </li>
             </ul>
           </div>
