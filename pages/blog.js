@@ -16,6 +16,7 @@ const Blog = () => {
       <BlogPage />
       <Brand />
       <Footer />
+      
     </Layout>
   );
 };
