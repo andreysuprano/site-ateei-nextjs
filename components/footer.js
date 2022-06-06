@@ -14,7 +14,7 @@ const Footer = () => {
                   <img src={logoLight} alt="" />
                 </a>
                 <p>
-                Hoje celebramos 21 anos de empresa, história pautada pela honestidade, transparência e muito trabalho!
+                  A nossa história pautada pela honestidade, transparência e muito trabalho!
                  Estamos em constante evolução para se adequar às demandas de nossos clientes e também a atual realidade do mercado, 
                  junto com clientes parceiros e fornecedores homologados, podemos garantir nosso processo e firmar o compromisso de 
                  atendimento com qualidade acima de tudo!
@@ -50,7 +50,7 @@ const Footer = () => {
                     <a href="#qualidade">Qualidade</a>
                   </li>
                   <li>
-                    <a href="https://www.ateei.com.br/downloads/">Downloads</a>
+                    <a href="https://www.old.ateei.com.br/downloads/">Downloads</a>
                   </li>
                   <li>
                     <a href="#contact">Contato</a>

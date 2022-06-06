@@ -10,10 +10,15 @@ import Quality from "@components/quality";
 import ContactTop from "@components/contact-top";
 import ContactForm from "@components/contact-form";
 import BlogHome from "@components/blog-home";
+import Head from 'next/head';
 import Subscribe from "@components/subscribe";
 import Footer from "@components/footer";
 const Index = () => {
   return (
+    <>
+    <Head>
+      <script src="//code.jivosite.com/widget/gTm2pRzqMY" async></script>
+    </Head>
     <Layout pageTitle="Ateei Group | A Tecnologia ao seu alcance!">
       <HeaderOne />
       <MobileNav />
@@ -27,6 +32,7 @@ const Index = () => {
       <Subscribe />
       <Footer />
     </Layout>
+    </>
   );
 };
 
