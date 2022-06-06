@@ -29,7 +29,7 @@ const About = () => {
                   <span></span>Quem somos
                 </p>
                 <h3>
-                  Seu parceiro para <br /> <span>Montagem de placas eletronicas</span>
+                  Seu parceiro para <br /> <span>Montagem de placas eletrônicas</span>
                 </h3>
               </div>
 

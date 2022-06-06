@@ -77,7 +77,7 @@ const SliderOne = () => {
               </div>
 
               <p>
-                Possuímos uma linha de produção contando com maquinas de montagem SMT e THT trazendo assim a qualidade de solda de grandes fabricantes ao seu produto.
+                Possuímos linhas de produção, altamente qualificadas, contando assim a qualidade de solda de grandes fabricantes ao seu produto.
               </p>
               <ScrollLink
                 activeClass="current"
