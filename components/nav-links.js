@@ -70,7 +70,7 @@ const NavLinks = (page) => {
         </ScrollLink>
       </li>
       <li>
-        <a href="https://www.ateei.com.br/downloads/">Downloads</a>
+        <a href="https://downloads.ateei.com.br/downloads/">Downloads</a>
       </li>
     </ul>
   );
