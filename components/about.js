@@ -18,7 +18,7 @@ const About = () => {
               <img src={about2} alt="" />
               <div className="about-one__images-content text-center">
                 <h3>+1500</h3>
-                <p>Projetos Entregegues em 2021</p>
+                <p>Projetos Entregues em 2021</p>
               </div>
             </div>
           </Col>

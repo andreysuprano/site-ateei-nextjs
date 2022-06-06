@@ -72,7 +72,7 @@ const SliderOne = () => {
                   <span></span>Tecnologia ao seu alcance
                 </p>
                 <h3>
-                  Tenologia <span>de ponta</span>
+                  Tecnologia <span>de ponta</span>
                 </h3>
               </div>
 

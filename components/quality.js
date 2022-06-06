@@ -14,7 +14,7 @@ const Quality = () => {
             <div className="about-one__content">
               <div className="block-title text-left">
                 <p>
-                  <span></span>Qualidade em foco!
+                  <span></span>Política da qualidade
                 </p>
                 <h3>
                   Qualidade <br /> <span>em todo processo produtivo</span>
@@ -22,7 +22,7 @@ const Quality = () => {
               </div>
 
               <p>
-              Processo 100% auditado pelos mais rígidos padrões de qualidade, atendendo as normas ISO13485:2016 E ISO9001:2015 – BRTUV Certificadora.
+              Promover a satisfação do cliente, customizando soluções e produtos. Visando à melhoria contínua da qualidade, dos processos de montagem, assistência técnica e soluções de placas e produtos eletrônicos. Nosso comprometimento está em satisfazer os requisitos aplicáveis, valorizando e desenvolvendo colaboradores e fornecedores, mantendo a meta de crescimento baseado nos princípios de a integridade
               </p>
               <div className="about-one__box">
                 <i className="besit-icon-medal"></i>

@@ -3179,9 +3179,9 @@ h6 {
 
 .footer-quality{
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-direction: row;
   margin-top: 100px;
+  justify-content: space-between;
 }
 .quality-item{
   display: flex;
