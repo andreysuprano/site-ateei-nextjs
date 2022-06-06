@@ -66,7 +66,7 @@ const HeaderOne = () => {
 
       <nav className="main-menu stricky">
         <Container>
-          <NavLinks />
+          <NavLinks page={''}/>
           <ScrollLink
             activeClass="current"
             className="thm-btn"

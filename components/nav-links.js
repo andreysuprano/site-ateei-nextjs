@@ -1,11 +1,15 @@
 import React from "react";
 import Link from "next/link";
 import { Link as ScrollLink } from "react-scroll";
-const NavLinks = () => {
+import { useRouter } from 'next/router';
+
+const NavLinks = (page) => {
   const handleDropdownStatus = (e) => {
     let clickedItem = e.currentTarget.parentNode;
     clickedItem.querySelector(".dropdown-list").classList.toggle("show");
   };
+
+  const router = useRouter()
   return (
     <ul className="main-menu__list one-page-scroll-menu">
       <li>
@@ -16,6 +20,7 @@ const NavLinks = () => {
           smooth={true}
           offset={-70}
           duration={500}
+          onClick={()=>{page === 'rep' ? '#' : router.push('/')}}
         >
           Home
         </ScrollLink>
@@ -28,6 +33,7 @@ const NavLinks = () => {
           smooth={true}
           offset={-70}
           duration={500}
+          onClick={()=>{page === 'rep' ? '#' : router.push('/')}}
         >
           Quem Somos
         </ScrollLink>
@@ -40,6 +46,7 @@ const NavLinks = () => {
           smooth={true}
           offset={-70}
           duration={500}
+          onClick={()=>{page === 'rep' ? '#' : router.push('/')}}
         >
           Serviços
         </ScrollLink>
@@ -57,6 +64,7 @@ const NavLinks = () => {
           smooth={true}
           offset={-70}
           duration={500}
+          onClick={()=>{page === 'rep' ? '#' : router.push('/')}}
         >
           Contato
         </ScrollLink>
@@ -64,38 +72,6 @@ const NavLinks = () => {
       <li>
         <a href="https://www.ateei.com.br/downloads/">Downloads</a>
       </li>
-      {/* <li className="dropdown">
-        <ScrollLink
-          activeClass="current"
-          to="blog"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
-          Blog
-        </ScrollLink>
-        <button className="dropdown-btn" onClick={handleDropdownStatus}>
-          <i className="fa fa-angle-right"></i>
-        </button>
-        <ul className="dropdown-list">
-          <li>
-            <Link href="/blog">
-              <a>Blog</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/blog-details">
-              <a>Blog Details</a>
-            </Link>
-          </li>
-        </ul>
-      </li> */}
-      {/* <li className="search-btn search-opener">
-        <a href="#">
-          <i className="fa fa-search"></i>
-        </a>
-      </li> */}
     </ul>
   );
 };

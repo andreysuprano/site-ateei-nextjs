@@ -32,7 +32,7 @@ const HeaderTwo = () => {
             </span>
           </div>
 
-          <NavLinks />
+          <NavLinks page={"rep"}/>
           {/* <div className="main-menu__two-btn-box">
             <ScrollLink
               activeClass="current"
