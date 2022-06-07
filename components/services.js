@@ -11,8 +11,8 @@ const Services = () => {
             <span></span>Porque nos escolher
           </p>
           <h3>
-          Gerenciamento de projetos e suporte técnico e físico <br />{" "}
-            <span> especializado, para que o seu produto possa ser entregue com efetividade no mercado!</span>
+          Gerenciamento de projetos e suporte técnico <br />{" "}
+            <span> estruturado e especializado, para que o seu produto possa ser entregue com efetividade no mercado!</span>
           </h3>
         </div>
         <div className="service-one__3-col">

@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Link as ScrollLink } from "react-scroll";
-import about1 from "@images/resources/about-1-1.png";
-import about2 from "@images/resources/about-1-2.png";
+import about1 from "@images/resources/quality-1-1.png";
+import about2 from "@images/resources/quality-1-2.png";
 import leadFree from "@images/lead-free-100x100.png";
 import protecao from "@images/protecao-icon-100x100.png";
 const Quality = () => {
