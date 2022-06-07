@@ -50,7 +50,7 @@ const Footer = () => {
                     <a href="#qualidade">Qualidade</a>
                   </li>
                   <li>
-                    <a href="https://www.old.ateei.com.br/downloads/">Downloads</a>
+                    <a href="https://www.downloads.ateei.com.br/">Downloads</a>
                   </li>
                   <li>
                     <a href="#contact">Contato</a>
