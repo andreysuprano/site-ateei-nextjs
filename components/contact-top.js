@@ -14,7 +14,7 @@ const ContactTop = () => {
           >
             <div className="block-title">
               <p>
-                <span></span>Deixe seu contao
+                <span></span>Deixe seu contato
               </p>
               <h3>Em breve nosso time comercial entrara em contato</h3>
             </div>
