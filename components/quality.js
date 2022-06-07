@@ -27,7 +27,7 @@ const Quality = () => {
               <div className="about-one__box">
                 <i className="besit-icon-medal"></i>
                 <div className="about-one__box-content">
-                  <h3>ISO 9001</h3>
+                  <h3><a style={{color:'#182c44'}}  href='#'>ISO 9001:2015</a></h3>
                   <p>
                   Possuímos excelência em nossos processos, garantindo que eles estão sendo gerenciados e em constante evolução.
                   </p>
@@ -36,7 +36,7 @@ const Quality = () => {
               <div className="about-one__box">
                 <i className="besit-icon-medal"></i>
                 <div className="about-one__box-content">
-                  <h3>ISO 13485</h3>
+                <h3><a style={{color:'#182c44'}} href='#'>ISO 13485:2016</a></h3>
                   <p>
                   Possuímos excelência na produção de itens médicos/hospitalares, garantindo que seu produto médico está sendo produzido com os critérios mínimos regulamentados para a fabricação de itens de tal importância.
                   </p>

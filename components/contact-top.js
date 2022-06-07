@@ -16,7 +16,7 @@ const ContactTop = () => {
               <p>
                 <span></span>Deixe seu contato
               </p>
-              <h3>Em breve nosso time comercial entrara em contato</h3>
+              <h3>Em breve nosso time comercial entrará em contato</h3>
             </div>
           </Col>
         </Row>
