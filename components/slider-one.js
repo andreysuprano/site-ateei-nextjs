@@ -5,6 +5,7 @@ import SwiperCore, { Autoplay, Pagination, EffectFade } from "swiper";
 import { Link as ScrollLink } from "react-scroll";
 import bgImage1 from "@images/backgrounds/slider-bg-1-1.jpg";
 import bgImage2 from "@images/backgrounds/slider-bg-1-2.jpg";
+import bgImage3 from "@images/backgrounds/slider-bg-1-3.jpg";
 SwiperCore.use([Autoplay, Pagination, EffectFade]);
 
 const SliderOne = () => {
@@ -97,7 +98,7 @@ const SliderOne = () => {
         <SwiperSlide>
           <div
             className="image-layer"
-            style={{ backgroundImage: `url(${bgImage1})` }}
+            style={{ backgroundImage: `url(${bgImage3})` }}
           ></div>
 
           <Container>
