@@ -9,7 +9,6 @@ import Institutional from "@components/institucional";
 import Quality from "@components/quality";
 import ContactTop from "@components/contact-top";
 import ContactForm from "@components/contact-form";
-import BlogHome from "@components/blog-home";
 import Head from 'next/head';
 import Subscribe from "@components/subscribe";
 import Footer from "@components/footer";
