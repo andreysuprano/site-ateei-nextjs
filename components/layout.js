@@ -5,6 +5,7 @@ import { Link as ScrollLink } from "react-scroll";
 import AppleTouch from "@images/favicons/apple-touch-icon.png";
 import Fevicon32 from "@images/favicons/favicon-32x32.png";
 import Fevicon16 from "@images/favicons/favicon-16x16.png";
+import whats from "../assets/images/whatsapp.png";
 
 const Layout = ({ pageTitle, children }) => {
   const [scrollTop, setScrollTop] = useState(false);
@@ -61,11 +62,28 @@ const Layout = ({ pageTitle, children }) => {
           to="wrapper"
           smooth={true}
           duration={500}
+          style={{marginBottom:80, width:70, height:70, padding:10}}
           className="scroll-to-top"
         >
-          <i className="fa fa-angle-up"></i>
+          <i className="fa fa-angle-up" style={{fontSize:25}}></i>
         </ScrollLink>
       ) : null}
+
+        <ScrollLink
+        style={{ color:'#FFF', padding:0, width:70, height:70}}
+        smooth={true}
+        duration={500}
+        className="scroll-to-top"
+        onClick={()=>{
+          window.location.href = "https://api.whatsapp.com/send/?phone=554132911600&text&app_absent=0";
+        }}
+        >
+          <img
+            src={whats} 
+            style={{width:90, padding:15, marginLeft:-10, marginTop:-2, zIndex:99999}}
+          />
+        {/* <i class="fa fa-whatsapp" aria-hidden="true" style={{color:'#FFF', zIndex:999}}></i> */}
+        </ScrollLink>
 
       <div className="search-popup">
         <div className="search-popup__overlay search-closer"></div>
