@@ -24,10 +24,9 @@ const Footer = () => {
                 </a>
                 <hr />
                 <div className="footer-widget__social">
-                  <a href="#" className="fab fa-facebook-f"></a>
-                  <a href="#" className="fab fa-twitter"></a>
-                  <a href="#" className="fab fa-skype"></a>
-                  <a href="#" className="fab fa-linkedin-in"></a>
+                  <a href="https://www.facebook.com/ateeigroup" className="fab fa-facebook-f"></a>
+                  <a href="https://www.instagram.com/ateei_equipamentos/" className="fab fa-instagram"></a>
+                  <a href="https://www.linkedin.com/company/2301016/admin/" className="fab fa-linkedin-in"></a>
                 </div>
               </div>
             </Col>

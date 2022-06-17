@@ -8,19 +8,15 @@ const Subscribe = () => {
         <Row className="align-items-center">
           <Col sm={12} md={12} lg={6}>
             <div className="subscribe-box__content">
-              <img src={emailIcon} alt="" />
-              <h3>Venha para nossa Newsletter</h3>
-              <p>Receba conteúdos que vão agregar no seu negócio</p>
+              <a href="https://www.facebook.com/ateeigroup" className="fab fa-youtube" style={{color:'#FFF', fontSize:48}}></a>
+              {/* <img src={emailIcon} alt="" /> */}
+              <h3>Acesse nosso canal do YouTube</h3>
+              <p>E veja no detalhe nosso dia dia, processos e estrutura!</p>
             </div>
           </Col>
 
           <Col sm={12} md={12} lg={6}>
-            <form action="#" className="subscribe-box__form">
-              <input type="text" placeholder="Email" name="email" />
-              <button type="submit" className="thm-btn">
-                Inscreva-se
-              </button>
-            </form>
+          <iframe width="460" height="265" src="https://www.youtube.com/embed/2kHfKsARft0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </Col>
         </Row>
       </Container>
