@@ -12,6 +12,8 @@ import ContactForm from "@components/contact-form";
 import Head from 'next/head';
 import Subscribe from "@components/subscribe";
 import Footer from "@components/footer";
+import CookieConsent from "react-cookie-consent";
+
 const Index = () => {
   return (
     <>
@@ -30,6 +32,22 @@ const Index = () => {
       <ContactForm />
       <Subscribe />
       <Footer />
+      <CookieConsent
+        location="bottom"
+        buttonText="Aceitar os Cookies"
+        cookieName="myAwesomeCookieName2"
+        style={{ background: "#2B373B", height:"150px" }}
+        buttonStyle={{ backgroundColor:"var(--primary)",color: "#2B373B", fontSize: "18px" }}
+        expires={150}
+        enableDeclineButton
+        declineButtonStyle={{ fontSize: "18px" }}
+        declineButtonText="Não Aceito"
+        onDecline={() => {
+          alert("nay!");
+        }}
+      >
+        Ao clicar em "Aceitar todos os cookies", concorda com o armazenamento de cookies no seu dispositivo para melhorar a navegação no site, analisar a utilização do site e ajudar nas nossas iniciativas de marketing.{" "}
+      </CookieConsent>
     </Layout>
     </>
   );

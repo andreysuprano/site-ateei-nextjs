@@ -70,12 +70,12 @@ const Layout = ({ pageTitle, children }) => {
       ) : null}
 
         <ScrollLink
-        style={{ color:'#FFF', padding:0, width:70, height:70}}
-        smooth={true}
-        duration={500}
-        className="scroll-to-top"
-        onClick={()=>{
-          window.location.href = "https://api.whatsapp.com/send/?phone=554132911600&text&app_absent=0";
+          style={{ color:'#FFF', padding:0, width:70, height:70}}
+          smooth={true}
+          duration={500}
+          className="scroll-to-top"
+          onClick={()=>{
+            window.location.href = "https://api.whatsapp.com/send/?phone=554132911600&text&app_absent=0";
         }}
         >
           <img
