@@ -36,7 +36,7 @@ const Index = () => {
         location="bottom"
         buttonText="Aceitar os Cookies"
         cookieName="myAwesomeCookieName2"
-        style={{ background: "#2B373B", height:"150px" }}
+        style={{ background: "#2B373B" }}
         buttonStyle={{ backgroundColor:"var(--primary)",color: "#2B373B", fontSize: "18px" }}
         expires={150}
         enableDeclineButton
