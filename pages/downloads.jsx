@@ -40,7 +40,7 @@ const BlogDetails = () => {
               </li>
               <li>
                 <a
-                  href="https://www.ateei.com.br/uploads/downloads/MANUAIS_ME/Manual%20ME3011b_E_r%2007%20at.pdf"
+                  href="https://downloads.ateei.com.br/uploads/downloads/MANUAIS_ME/Manual%20ME3011b_E_r%2007%20at.pdf"
                   target="_blank"
                   rel="noopener"
                 >
@@ -49,7 +49,7 @@ const BlogDetails = () => {
               </li>
               <li>
                 <a
-                  href="https://www.ateei.com.br/uploads/downloads/MANUAIS_ME/Manual%20ME3011b_S_r08a%20at.pdf"
+                  href="https://downloads.ateei.com.br/uploads/downloads/MANUAIS_ME/Manual%20ME3011b_S_r08a%20at.pdf"
                   target="_blank"
                   rel="noopener"
                 >
@@ -63,7 +63,7 @@ const BlogDetails = () => {
             <ul>
               <li>
                 <a
-                  href="https://www.ateei.com.br/uploads/downloads/MANUAIS_ME/Manual%20Instru%c3%a7%c3%b5es%20_Hardware.rar"
+                  href="https://downloads.ateei.com.br/uploads/downloads/MANUAIS_ME/Manual%20Instru%c3%a7%c3%b5es%20_Hardware.rar"
                   target="_blank"
                   rel="noopener"
                 >
@@ -77,7 +77,7 @@ const BlogDetails = () => {
             <ul>
               <li>
                 <a
-                  href="https://www.ateei.com.br/uploads/2017/02/DNP_Slave_Profile_Mauell_ME3011b.pdf"
+                  href="https://downloads.ateei.com.br/uploads/2017/02/DNP_Slave_Profile_Mauell_ME3011b.pdf"
                   target="_blank"
                   rel="noopener"
                 >
@@ -86,7 +86,7 @@ const BlogDetails = () => {
               </li>
               <li>
                 <a
-                  href="https://www.ateei.com.br/uploads/2017/02/Manual_do_tradutor_SYNC2000_S4R1OEM_ES.pdf"
+                  href="https://downloads.ateei.com.br/uploads/2017/02/Manual_do_tradutor_SYNC2000_S4R1OEM_ES.pdf"
                   target="_blank"
                   rel="noopener"
                 >
@@ -100,7 +100,7 @@ const BlogDetails = () => {
             <ul>
               <li>
                 <a
-                  href="https://www.ateei.com.br/uploads/downloads/MANUAIS_ME/Manual%20e.Tool%20config.rar"
+                  href="https://downloads.ateei.com.br/uploads/downloads/MANUAIS_ME/Manual%20e.Tool%20config.rar"
                   target="_blank"
                   rel="noopener"
                 >
@@ -114,7 +114,7 @@ const BlogDetails = () => {
             <ul>
               <li>
                 <a
-                  href="https://www.ateei.com.br/uploads/downloads/Manual%20e.Tool%20e.view.rar"
+                  href="https://downloads.ateei.com.br/uploads/downloads/Manual%20e.Tool%20e.view.rar"
                   target="_blank"
                   rel="noopener"
                 >
@@ -128,7 +128,7 @@ const BlogDetails = () => {
             <ul>
               <li>
                 <a
-                  href="https://www.ateei.com.br/uploads/downloads/MANUAIS_ME/Manual%20e.Tool%20view.rar"
+                  href="https://downloads.ateei.com.br/uploads/downloads/MANUAIS_ME/Manual%20e.Tool%20view.rar"
                   target="_blank"
                   rel="noopener"
                 >
@@ -142,7 +142,7 @@ const BlogDetails = () => {
             <ul>
               <li>
                 <a
-                  href="https://www.ateei.com.br/uploads/downloads/Manual%20Modbus_.rar"
+                  href="https://downloads.ateei.com.br/uploads/downloads/Manual%20Modbus_.rar"
                   target="_blank"
                   rel="noopener"
                 >
@@ -156,7 +156,7 @@ const BlogDetails = () => {
             <ul>
               <li>
                 <a
-                  href="https://www.ateei.com.br/uploads/downloads/e.Tool%20ME3011%20config%204.07.3.rar"
+                  href="https://downloads.ateei.com.br/uploads/downloads/e.Tool%20ME3011%20config%204.07.3.rar"
                   target="_blank"
                   rel="noopener"
                 >
@@ -170,7 +170,7 @@ const BlogDetails = () => {
             <ul>
               <li>
                 <a
-                  href="https://www.ateei.com.br/uploads/downloads/easyconnect_4.3.0_%28dnp3%29.rar"
+                  href="https://downloads.ateei.com.br/uploads/downloads/easyconnect_4.3.0_%28dnp3%29.rar"
                   target="_blank"
                   rel="noopener"
                 >
@@ -180,7 +180,7 @@ const BlogDetails = () => {
               </li>
               <li>
                 <a
-                  href="https://www.ateei.com.br/uploads/downloads/EasyConnect_V5.7.1_Setup.rar"
+                  href="https://downloads.ateei.com.br/uploads/downloads/EasyConnect_V5.7.1_Setup.rar"
                   target="_blank"
                   rel="noopener"
                 >
@@ -195,7 +195,7 @@ const BlogDetails = () => {
             <ul>
               <li>
                 <a
-                  href="https://www.ateei.com.br/uploads/downloads/e.tool_me3011_e.view_1.04.3.rar"
+                  href="https://downloads.ateei.com.br/uploads/downloads/e.tool_me3011_e.view_1.04.3.rar"
                   target="_blank"
                   rel="noopener"
                 >
@@ -209,7 +209,7 @@ const BlogDetails = () => {
             <ul>
               <li>
                 <a
-                  href="https://www.ateei.com.br/uploads/downloads/me3011_View_SW_setup.rar"
+                  href="https://downloads.ateei.com.br/uploads/downloads/me3011_View_SW_setup.rar"
                   target="_blank"
                   rel="noopener"
                 >
@@ -223,7 +223,7 @@ const BlogDetails = () => {
             <ul>
               <li>
                 <a
-                  href="https://www.ateei.com.br/uploads/downloads/Label%20Ask.rar"
+                  href="https://downloads.ateei.com.br/uploads/downloads/Label%20Ask.rar"
                   target="_blank"
                   rel="noopener"
                 >
@@ -242,7 +242,7 @@ const BlogDetails = () => {
             <ul>
               <li>
                 <a
-                  href="https://www.ateei.com.br/uploads/downloads/MANUAIS_ME/Manual_Antron_IIs.rar"
+                  href="https://downloads.ateei.com.br/uploads/downloads/MANUAIS_ME/Manual_Antron_IIs.rar"
                   target="_blank"
                   rel="noopener"
                 >
@@ -251,7 +251,7 @@ const BlogDetails = () => {
               </li>
               <li>
                 <a
-                  href="https://www.ateei.com.br/uploads/2017/02/IMPLEMENTA%C3%87%C3%83O-DE-PROTOCOLO-MODBUS-ANTRON-II.pdf"
+                  href="https://downloads.ateei.com.br/uploads/2017/02/IMPLEMENTA%C3%87%C3%83O-DE-PROTOCOLO-MODBUS-ANTRON-II.pdf"
                   target="_blank"
                   rel="noopener"
                 >
@@ -260,7 +260,7 @@ const BlogDetails = () => {
               </li>
               <li>
                 <a
-                  href="https://www.ateei.com.br/uploads/2017/02/Manual-SW-Antron-2.0-PT.pdf"
+                  href="https://downloads.ateei.com.br/uploads/2017/02/Manual-SW-Antron-2.0-PT.pdf"
                   target="_blank"
                   rel="noopener"
                 >
@@ -274,7 +274,7 @@ const BlogDetails = () => {
             <ul>
               <li>
                 <a
-                  href="https://www.ateei.com.br/uploads/downloads/antron_vb.net_2013_1.0.5_windows_7-8.zip"
+                  href="https://downloads.ateei.com.br/uploads/downloads/antron_vb.net_2013_1.0.5_windows_7-8.zip"
                   target="_blank"
                   rel="noopener"
                 >
@@ -288,7 +288,7 @@ const BlogDetails = () => {
             <ul>
               <li>
                 <a
-                  href="https://www.ateei.com.br/uploads/downloads/Software%20AntronWindows%20Xp.rar"
+                  href="https://downloads.ateei.com.br/uploads/downloads/Software%20AntronWindows%20Xp.rar"
                   target="_blank"
                   rel="noopener"
                 >
@@ -307,7 +307,7 @@ const BlogDetails = () => {
             <ul>
               <li>
                 <a
-                  href="https://www.ateei.com.br/uploads/2020/Manual_Carregador_Baterias_AT160FRN-07.pdf"
+                  href="https://downloads.ateei.com.br/uploads/2020/Manual_Carregador_Baterias_AT160FRN-07.pdf"
                   target="_blank"
                   rel="noopener"
                 >
@@ -326,7 +326,7 @@ const BlogDetails = () => {
             <ul>
               <li>
                 <a
-                  href="https://www.ateei.com.br/uploads/2020/Manual%20AT10%20FRN%20Rev%200.pdf"
+                  href="https://downloads.ateei.com.br/uploads/2020/Manual%20AT10%20FRN%20Rev%200.pdf"
                   target="_blank"
                   rel="noopener"
                 >
@@ -342,7 +342,7 @@ const BlogDetails = () => {
             <ul>
               <li>
                 <a
-                  href="https://www.ateei.com.br/uploads/downloads/Manual_MA2016/Manual%20MA%2018%20v04.pdf"
+                  href="https://downloads.ateei.com.br/uploads/downloads/Manual_MA2016/Manual%20MA%2018%20v04.pdf"
                   target="_blank"
                   rel="noopener"
                 >
