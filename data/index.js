@@ -346,4 +346,12 @@ export const REPRESENTANTES_DATA = [
     email:"kelvintan@amptron.com.sg",
     site:"www.amptron.com.sg"
   },
+  {
+    pais:"Argentina",
+    nome:"Servicios y Suministros SA",
+    endereco:"Anunciador de Alarme Industrial ME3011b : Marabotto 432 B1648BPF Tigre – Prov. De Buenos Aires – Argentina",
+    telefone:"Christian Olmos - +54-(0)11-4749-8813",
+    email:"christian.olmos@sysar.com.ar",
+    site:"www.syzar.com.ar",
+  },
 ]
