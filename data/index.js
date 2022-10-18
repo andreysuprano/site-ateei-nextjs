@@ -267,6 +267,14 @@ export const REPRESENTANTES_DATA = [
     site:"www.artec-ingenieria.com"
   },
   {
+    pais:"Argentina",
+    nome:"Servicios y Suministros SA",
+    endereco:"Anunciador de Alarme Industrial ME3011b : Marabotto 432 B1648BPF Tigre – Prov. De Buenos Aires – Argentina",
+    telefone:"Christian Olmos - +54-(0)11-4749-8813",
+    email:"christian.olmos@sysar.com.ar",
+    site:"www.syzar.com.ar",
+  },
+  {
     pais:"Brasil",
     nome:"Karina Lima - Ateei Group",
     endereco:"Analista de Novos Negócios Placas Eletrônicas Linha ME3011b / Sinalizadores",
@@ -293,7 +301,7 @@ export const REPRESENTANTES_DATA = [
   {
     pais:"Brasil",
     nome:"ADC COMÉRCIO DE COMPONENTES ELETRÔNICOS LTDA – ME",
-    endereco:"Anunciadores de Alarme Industrial e Sinalizadores de Eventos. Calle Jorge Juan N 033-06 Y Pasaje Fray Joaquin Jibaja – Quito – Ecuador Contato: Patrícia Almeida / Laura Barrera",
+    endereco:"Placas eletrônicas,  Chicotes Elétricos e Produtos específicos Carregador AT160FRN, Fonte AT10FRN Rua Rosa Machado, 54 São Lourenço Curitiba-PR – CEP: 82210-170",
     telefone:"(41) 9 9104-2857",
     email:"odair.canestraro@ateei.com.br",
     site:"www.adccomercial.com.br"
@@ -301,7 +309,7 @@ export const REPRESENTANTES_DATA = [
   {
     pais:"Equador",
     nome:"JARVAL COMÉRCIO INTERNACIONAL CIA LTDA",
-    endereco:"Placas eletrônicas,  Chicotes Elétricos e Produtos específicos Carregador AT160FRN, Fonte AT10FRN Rua Rosa Machado, 54 São Lourenço Curitiba-PR – CEP: 82210-170",
+    endereco:"Anunciadores de Alarme Industrial e Sinalizadores de Eventos. Calle Jorge Juan N 033-06 Y Pasaje Fray Joaquin Jibaja – Quito – Ecuador Contato: Patrícia Almeida / Laura Barrera",
     telefone:"00++593 2 2560315 ext 20",
     email:"ventas@jarvalcia.com",
     site:" www.jarvalcia.com"
@@ -345,13 +353,5 @@ export const REPRESENTANTES_DATA = [
     telefone:"02-809-5588",
     email:"kelvintan@amptron.com.sg",
     site:"www.amptron.com.sg"
-  },
-  {
-    pais:"Argentina",
-    nome:"Servicios y Suministros SA",
-    endereco:"Anunciador de Alarme Industrial ME3011b : Marabotto 432 B1648BPF Tigre – Prov. De Buenos Aires – Argentina",
-    telefone:"Christian Olmos - +54-(0)11-4749-8813",
-    email:"christian.olmos@sysar.com.ar",
-    site:"www.syzar.com.ar",
-  },
+  }
 ]
