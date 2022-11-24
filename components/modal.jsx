@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import { Image } from "react-bootstrap";
-import AvisoFerias from '../assets/images/AvisoFerias.jpeg';
 
 const ModalAlerta = () => {
   const [show, setShow] = useState(true);
@@ -36,7 +35,7 @@ const ModalAlerta = () => {
         <div style={{display:'flex', justifyContent:'flex-end'}}>
           <i className="themify-icon-close" style={{fontSize:30, cursor:'pointer'}} onClick={()=>handleClose()}></i>
         </div>
-        <Image src={AvisoFerias} style={{width:'100%', marginTop:20}}/>
+        <Image src="https://ibb.co/MpBbvMP" style={{width:'100%', marginTop:20}}/>
       </Modal.Body>
     </Modal>
   );
