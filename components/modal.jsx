@@ -35,7 +35,7 @@ const ModalAlerta = () => {
         <div style={{display:'flex', justifyContent:'flex-end'}}>
           <i className="themify-icon-close" style={{fontSize:30, cursor:'pointer'}} onClick={()=>handleClose()}></i>
         </div>
-        <Image src="https://firebasestorage.googleapis.com/v0/b/siteateei.appspot.com/o/RUMO-AO-HEXA.png?alt=media&token=7a1d1858-7b48-4dc3-911b-ac2c42d37732" style={{width:'100%', marginTop:20}}/>
+        <Image src="https://firebasestorage.googleapis.com/v0/b/siteateei.appspot.com/o/COMUNICADO-DE-FE%CC%81RIAS.png?alt=media&token=3a1c0163-8e9d-40a3-a7a6-c9fc1d6e398d" style={{width:'100%', marginTop:20}}/>
       </Modal.Body>
     </Modal>
   );
