@@ -3200,3 +3200,129 @@ h6 {
  .cards-box{
    background-color: #0a1829;
  }
+
+ .digital-card-bg{
+  width: 100vw;
+  height: 100vh;
+  background-color: #182c44;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .person-avatar{
+  width: 30%;
+  border-radius: 20px;
+  border: 3px solid #B5C84B;
+  margin-top: 30px;
+  margin-bottom: 20px;
+ }
+
+ .person-details{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ }
+ .person-picture{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ }
+
+ .person-name{
+  color: #FFF;
+ }
+
+ .person-position{
+  color: #FFF;
+  margin-top: -10px;
+ }
+ .social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .social-links{
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #203b5c;
+  border-radius: 15px;
+  padding: 10px 20px;
+ }
+
+ .social-link{
+  width: 60px;
+  height: 60px;
+ }
+
+ .card-logo{
+  width: 150px;
+ }
+
+ .digital-card-bg{
+  display: flex;
+  flex-direction: column;
+ }
+
+ .send-mail{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap:10px;
+  margin-bottom: 10px;
+ }
+
+ .send-mail-text{
+  color: #FFF;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+ }
+
+ .meet-icon{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+ }
+ 
+ .meet-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  cursor: pointer;
+ }
+ 
+ .meet-button h3{
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  margin-top: 8px;
+  margin-left: 5px;
+ }
+
+ .make-meet{
+  background-color: #B5C84B;
+  padding: 10px 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+ }
+
+ 
