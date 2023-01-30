@@ -52,10 +52,14 @@ const Blog = () => {
 						</div>
 					</div>
 				</div>
-				<div className="make-meet">
-					<div className="meet-button">
-						<img src={Meet} className="meet-icon" />
-						<h3>Agendar uma reunião!</h3>
+			</div>
+			<div className="bottom-sheet">
+				<div>
+					<div className="make-meet">
+						<div className="meet-button">
+							<img src={Meet} className="meet-icon" />
+							<h3>Agendar uma reunião!</h3>
+						</div>
 					</div>
 				</div>
 			</div>
