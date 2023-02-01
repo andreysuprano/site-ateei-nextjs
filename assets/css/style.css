@@ -3289,10 +3289,12 @@ h6 {
 }
 .bottom-sheet {
 	width: 100vw;
-	height: 300px;
 	background-color: #fff;
-	margin-top: -40px;
+	margin-top: -60px;
 	border-radius: 30px 30px 0px 0px;
+	display: flex;
+	justify-content: center;
+	box-shadow: #000 20px 10px 10px;
 }
 .meet-icon {
 	width: 40px;
@@ -3325,4 +3327,55 @@ h6 {
 	background-color: #b5c84b;
 	padding: 10px 30px;
 	border-radius: 15px;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
+.bts-content{
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	padding: 25px;
+	flex-direction: column;
+}
+
+.presentation{
+	margin-top: 25px;
+	text-align: center;
+}
+
+.link-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	cursor: pointer;
+}
+
+.link-button h3 {
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	margin-top: 8px;
+	margin-left: 5px;
+}
+
+.make-link {
+	background-color: #203b5cc2;
+	padding: 10px 30px;
+	border-radius: 15px;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1000px) {
+	.bts-content {
+	  max-width: 30%;
+	}
+  }
