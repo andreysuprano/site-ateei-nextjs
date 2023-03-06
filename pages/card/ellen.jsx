@@ -73,10 +73,10 @@ const Blog = () => {
 			<div className="bottom-sheet">
 				<div className="bts-content">
 					<div className="make-meet">
-						<div className="meet-button" href={'https://wa.me/' + card.whatsapp}>
+					<a className="meet-button" href={'https://wa.me/' + card.whatsapp}>
 							<img src={Meet} className="meet-icon" />
 							<h3>Agendar uma reunião!</h3>
-						</div>
+						</a>
 					</div>
 					<p className="presentation">{card.resumo}</p>
 					{/* <div className="make-link">
