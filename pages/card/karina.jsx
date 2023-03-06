@@ -17,16 +17,16 @@ import { useEffect } from 'react';
 
 const Blog = () => {
 	const card = {
-		nome: 'Miriam Almeida',
-		email: 'miriam.almeida@ateei.com.br',
-		slug: 'Miriam',
-		fotoUrl:'https://firebasestorage.googleapis.com/v0/b/siteateei.appspot.com/o/Captura%20de%20Tela%202023-02-16%20a%CC%80s%2008.44.28.png?alt=media&token=6c258927-e68e-4d06-b180-09de5d092198',
+		nome: 'Karina Lima',
+		email: 'karina.lima@ateei.com.br',
+		slug: 'Karina',
+		fotoUrl:'https://firebasestorage.googleapis.com/v0/b/siteateei.appspot.com/o/Captura%20de%20Tela%202023-02-16%20a%CC%80s%2008.43.53.png?alt=media&token=8fd06513-f027-4067-bcd8-fa5206fe1a23',
 		funcao: 'Analista de Novos Negócios',
-		instagram: 'https://instagram.com/miriam.almeida.leite/',
-		linkedin: 'https://www.linkedin.com/in/miriam-almeida-leite-69806439/',
-		telefone: '+5541991051310',
-		localizacao: 'maps.google.com',
-		resumo: 'Profissional que se destaca pela conduta de trabalho. Tem senso de justiça apurado, capacidade técnica e excelente espírito de equipe. De personalidade forte e marcante, age sempre com integridade e possui habilidade genuína de transformar problemas em oportunidades!Busca continuamente melhorar seus processos e atendimento, para facilitar o andamento da negociação! Ama pôr do sol e uma boa xícara de café, preto e sem açúcar! Sim, também possui fraquezas, e chocolate é uma delas! Conte comigo para viabilizar suas ideias e projetos.  Juntos podemos tornar possível!',
+		instagram: 'https://instagram.com/karina_vendas_ateei/',
+		linkedin: 'https://www.linkedin.com/in/karina-lima-51582678/',
+		telefone: '+5541991852426',
+		localizacao: 'https://maps.google.com',
+		resumo: 'Profissional integra, com ampla experiência em vendas, graduada em administração e sempre em busca de novos conhecimentos para desenvolver estratégias modernas de atendimento, relacionamento, encantamento e fidelização de clientes.Trabalhando sempre com seriedade, honestidade e foco no resultado de uma parceria saudável, estou disponível para conversarmos e juntos trilharmos um caminho de sucesso!',
 	}
 
 	return (
@@ -75,10 +75,10 @@ const Blog = () => {
 			<div className="bottom-sheet">
 				<div className="bts-content">
 					<div className="make-meet">
-						<div className="meet-button" href={'https://wa.me/' + card.whatsapp}>
+						<a className="meet-button" href={'https://wa.me/' + card.whatsapp}>
 							<img src={Meet} className="meet-icon" />
 							<h3>Agendar uma reunião!</h3>
-						</div>
+						</a>
 					</div>
 					<p className="presentation">{card.resumo}</p>
 					{/* <div className="make-link">

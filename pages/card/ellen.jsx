@@ -13,22 +13,20 @@ import Logo from '../../assets/images/logo-light.png';
 import Footer from '../../components/footer';
 
 import { CARD_DATA } from '@data/cards';
-import { useEffect } from 'react';
 
-const Blog = () => {
 	const card = {
-		nome: 'Miriam Almeida',
-		email: 'miriam.almeida@ateei.com.br',
-		slug: 'Miriam',
-		fotoUrl:'https://firebasestorage.googleapis.com/v0/b/siteateei.appspot.com/o/Captura%20de%20Tela%202023-02-16%20a%CC%80s%2008.44.28.png?alt=media&token=6c258927-e68e-4d06-b180-09de5d092198',
-		funcao: 'Analista de Novos Negócios',
-		instagram: 'https://instagram.com/miriam.almeida.leite/',
-		linkedin: 'https://www.linkedin.com/in/miriam-almeida-leite-69806439/',
-		telefone: '+5541991051310',
+		nome: 'Ellen Tracz',
+		email: 'ellen.tracz@ateei.com.br',
+		fotoUrl:'https://firebasestorage.googleapis.com/v0/b/siteateei.appspot.com/o/Captura%20de%20Tela%202023-03-06%20a%CC%80s%2009.03.12.png?alt=media&token=6bc9cd1d-c4c4-4e22-aed5-042792ea0314',
+		slug: 'Ellen',
+		funcao: 'Assistente Comercial',
+		instagram: 'https://instagram.com/ellentracz/',
+		linkedin: 'https://www.linkedin.com/in/ellen-tracz-4b6b7a1a8/',
+		telefone: '+554132911600',
 		localizacao: 'maps.google.com',
-		resumo: 'Profissional que se destaca pela conduta de trabalho. Tem senso de justiça apurado, capacidade técnica e excelente espírito de equipe. De personalidade forte e marcante, age sempre com integridade e possui habilidade genuína de transformar problemas em oportunidades!Busca continuamente melhorar seus processos e atendimento, para facilitar o andamento da negociação! Ama pôr do sol e uma boa xícara de café, preto e sem açúcar! Sim, também possui fraquezas, e chocolate é uma delas! Conte comigo para viabilizar suas ideias e projetos.  Juntos podemos tornar possível!',
+		resumo: 'Sou adepta de atividades contemplativas e amo um dia ensolarado com direito a piscina. Gosto de ser um ponto de apoio para meus colegas e acredito que essa característica contribui ao bom convívio. Respeitada por apresentar grande compromisso com as demandas da empresa e ótima capacidade de adaptação em situações difíceis. Destaca-se a persistência com seus objetivos e capacidade de aprendizado rápido. Compreende que um bom trabalho é aquele que te faz crescer como pessoa e como profissional.'
 	}
-
+const Blog = () => {
 	return (
 		<Layout pageTitle="Miriam Almeida | Digital Card">
 			<div className="digital-card-bg">

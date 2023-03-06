@@ -17,16 +17,16 @@ import { useEffect } from 'react';
 
 const Blog = () => {
 	const card = {
-		nome: 'Miriam Almeida',
-		email: 'miriam.almeida@ateei.com.br',
-		slug: 'Miriam',
-		fotoUrl:'https://firebasestorage.googleapis.com/v0/b/siteateei.appspot.com/o/Captura%20de%20Tela%202023-02-16%20a%CC%80s%2008.44.28.png?alt=media&token=6c258927-e68e-4d06-b180-09de5d092198',
-		funcao: 'Analista de Novos Negócios',
-		instagram: 'https://instagram.com/miriam.almeida.leite/',
-		linkedin: 'https://www.linkedin.com/in/miriam-almeida-leite-69806439/',
-		telefone: '+5541991051310',
+		nome: 'Odair Natalio Canestraro',
+		email: 'odair.canestraro@ateei.com.br',
+		slug: 'Odair',
+		fotoUrl:'https://firebasestorage.googleapis.com/v0/b/siteateei.appspot.com/o/WhatsApp%20Image%202023-02-22%20at%2013.31.13.jpeg?alt=media&token=6d4a75d7-7843-43a2-88de-f47f732bbeb0',
+		funcao: 'Representante Comercial',
+		instagram: 'https://instagram.com/odairnatalio/',
+		linkedin: 'https://www.linkedin.com/in/odair-natalio-canestraro-a7148b34/',
+		telefone: '+5541991042857',
 		localizacao: 'maps.google.com',
-		resumo: 'Profissional que se destaca pela conduta de trabalho. Tem senso de justiça apurado, capacidade técnica e excelente espírito de equipe. De personalidade forte e marcante, age sempre com integridade e possui habilidade genuína de transformar problemas em oportunidades!Busca continuamente melhorar seus processos e atendimento, para facilitar o andamento da negociação! Ama pôr do sol e uma boa xícara de café, preto e sem açúcar! Sim, também possui fraquezas, e chocolate é uma delas! Conte comigo para viabilizar suas ideias e projetos.  Juntos podemos tornar possível!',
+		resumo: 'Profissional de perfil arrojado, técnico e com alta capacidade de atendimento a especificidade e desenvolvimento de produtos eletronicos, com anos de experiencia na atuação comercial. Com foco dirigido na montagem de placas eletrônicas, SMT e THT, integração de conjuntos e sub-conjuntos eletro-eletrônicos, chicotes elétricos customizados.'
 	}
 
 	return (
