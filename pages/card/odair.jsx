@@ -17,7 +17,7 @@ import { useEffect } from 'react';
 
 const Blog = () => {
 	const card = {
-		nome: 'Odair Natalio Canestraro',
+		nome: 'Odair Canestraro',
 		email: 'odair.canestraro@ateei.com.br',
 		slug: 'Odair',
 		fotoUrl:'https://firebasestorage.googleapis.com/v0/b/siteateei.appspot.com/o/WhatsApp%20Image%202023-02-22%20at%2013.31.13.jpeg?alt=media&token=6d4a75d7-7843-43a2-88de-f47f732bbeb0',
