@@ -30,7 +30,7 @@ const Blog = () => {
 	}
 
 	return (
-		<Layout pageTitle="Miriam Almeida | Digital Card">
+		<Layout pageTitle={card.nome +" | Digital Card"}>
 			<div className="digital-card-bg">
 				<a href="">
 					<img src={Logo} className="card-logo" />
