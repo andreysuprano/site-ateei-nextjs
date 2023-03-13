@@ -60,7 +60,7 @@ const Blog = () => {
 							</a>
 						</div>
 						<div>
-							<a href={'https://wa.me/' + card.whatsapp}>
+							<a href={'https://wa.me/' + card.telefone}>
 								<img src={WhatsApp} alt="" className="social-link" />
 							</a>
 						</div>
