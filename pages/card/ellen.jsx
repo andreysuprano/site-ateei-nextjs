@@ -14,21 +14,23 @@ import Footer from '../../components/footer';
 
 import { CARD_DATA } from '@data/cards';
 
-	const card = {
-		nome: 'Ellen Tracz',
-		email: 'ellen.tracz@ateei.com.br',
-		fotoUrl:'https://firebasestorage.googleapis.com/v0/b/siteateei.appspot.com/o/Captura%20de%20Tela%202023-03-06%20a%CC%80s%2009.03.12.png?alt=media&token=6bc9cd1d-c4c4-4e22-aed5-042792ea0314',
-		slug: 'Ellen',
-		funcao: 'Assistente Comercial',
-		instagram: 'https://instagram.com/ellentracz/',
-		linkedin: 'https://www.linkedin.com/in/ellen-tracz-4b6b7a1a8/',
-		telefone: '+554132911600',
-		localizacao: 'maps.google.com',
-		resumo: 'Sou adepta de atividades contemplativas e amo um dia ensolarado com direito a piscina. Gosto de ser um ponto de apoio para meus colegas e acredito que essa característica contribui ao bom convívio. Respeitada por apresentar grande compromisso com as demandas da empresa e ótima capacidade de adaptação em situações difíceis. Destaca-se a persistência com seus objetivos e capacidade de aprendizado rápido. Compreende que um bom trabalho é aquele que te faz crescer como pessoa e como profissional.'
-	}
+const card = {
+	nome: 'Ellen Tracz',
+	email: 'ellen.tracz@ateei.com.br',
+	fotoUrl:
+		'https://firebasestorage.googleapis.com/v0/b/siteateei.appspot.com/o/Captura%20de%20Tela%202023-03-06%20a%CC%80s%2009.03.12.png?alt=media&token=6bc9cd1d-c4c4-4e22-aed5-042792ea0314',
+	slug: 'Ellen',
+	funcao: 'Assistente Comercial',
+	instagram: 'https://instagram.com/ellentracz/',
+	linkedin: 'https://www.linkedin.com/in/ellen-tracz-4b6b7a1a8/',
+	telefone: '+554132911600',
+	localizacao: 'maps.google.com',
+	resumo:
+		'Sou adepta de atividades contemplativas e amo um dia ensolarado com direito a piscina. Gosto de ser um ponto de apoio para meus colegas e acredito que essa característica contribui ao bom convívio. Respeitada por apresentar grande compromisso com as demandas da empresa e ótima capacidade de adaptação em situações difíceis. Destaca-se a persistência com seus objetivos e capacidade de aprendizado rápido. Compreende que um bom trabalho é aquele que te faz crescer como pessoa e como profissional.'
+};
 const Blog = () => {
 	return (
-		<Layout pageTitle={card.nome +" | Digital Card"}>
+		<Layout pageTitle={card.nome + ' | Digital Card'}>
 			<div className="digital-card-bg">
 				<a href="">
 					<img src={Logo} className="card-logo" />
@@ -73,7 +75,7 @@ const Blog = () => {
 			<div className="bottom-sheet">
 				<div className="bts-content">
 					<div className="make-meet">
-					<a className="meet-button" href={'https://wa.me/' + card.whatsapp}>
+						<a className="meet-button" href={'https://wa.me/' + card.telefone}>
 							<img src={Meet} className="meet-icon" />
 							<h3>Agendar uma reunião!</h3>
 						</a>

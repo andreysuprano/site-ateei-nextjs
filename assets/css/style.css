@@ -3209,7 +3209,10 @@ h6 {
 }
 
 .person-avatar {
-	width: 30%;
+	min-width: 300px;
+	min-height: 300px;
+	max-width: 300px;
+	max-height: 300px;
 	border-radius: 20px;
 	border: 3px solid #b5c84b;
 	margin-top: 30px;
@@ -3332,7 +3335,7 @@ h6 {
 	align-items: center;
 	justify-content: center;
 }
-.bts-content{
+.bts-content {
 	width: 90%;
 	display: flex;
 	justify-content: center;
@@ -3340,9 +3343,9 @@ h6 {
 	flex-direction: column;
 }
 
-.presentation{
+.presentation {
 	margin-top: 25px;
-	text-align: center;
+	text-align: justify;
 }
 
 .link-button {
@@ -3376,6 +3379,6 @@ h6 {
 
 @media screen and (min-width: 1000px) {
 	.bts-content {
-	  max-width: 30%;
+		max-width: 30%;
 	}
-  }
+}

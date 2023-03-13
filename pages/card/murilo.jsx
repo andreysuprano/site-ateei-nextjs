@@ -20,17 +20,19 @@ const Blog = () => {
 		nome: 'Murilo Rodrigues',
 		email: 'murilo.rodrigues@ateei.com.br',
 		slug: 'Murilo',
-		fotoUrl:'https://firebasestorage.googleapis.com/v0/b/siteateei.appspot.com/o/Captura%20de%20Tela%202023-03-06%20a%CC%80s%2009.04.02.png?alt=media&token=b1091fa9-5334-41f6-aca3-80c39ec0515d',
+		fotoUrl:
+			'https://firebasestorage.googleapis.com/v0/b/siteateei.appspot.com/o/Captura%20de%20Tela%202023-03-06%20a%CC%80s%2009.04.02.png?alt=media&token=b1091fa9-5334-41f6-aca3-80c39ec0515d',
 		funcao: 'Coordenador Comercial',
 		instagram: 'https://instagram.com/crystoferson/',
 		linkedin: 'https://www.linkedin.com/in/crystoferson-murilo-rodrigues-74775958/',
 		telefone: '+554192896111',
 		localizacao: 'maps.google.com',
-		resumo: 'Reconhecido ao longo da carreira profissional pelo respeito, ética e aprendizado rápido, com excelente capacidade de análise e raciocínio lógico.Disponível a atender as necessidades do ambiente que esta inserido, com máxima dedicação, presteza e atenção, focado em objetivos e metas se dedicando ao máximo para alcançar o que lhe é solicitado.Sou Fã de café e de atividades ao ar livre, sempre disposto a uma boa caminhada, tenho o bom humor como grande aliado com energia boa para enfrentar os desafios!'
-	}
+		resumo:
+			'Reconhecido ao longo da carreira profissional pelo respeito, ética e aprendizado rápido, com excelente capacidade de análise e raciocínio lógico.Disponível a atender as necessidades do ambiente que esta inserido, com máxima dedicação, presteza e atenção, focado em objetivos e metas se dedicando ao máximo para alcançar o que lhe é solicitado.Sou Fã de café e de atividades ao ar livre, sempre disposto a uma boa caminhada, tenho o bom humor como grande aliado com energia boa para enfrentar os desafios!'
+	};
 
 	return (
-		<Layout pageTitle={card.nome +" | Digital Card"}>
+		<Layout pageTitle={card.nome + ' | Digital Card'}>
 			<div className="digital-card-bg">
 				<a href="">
 					<img src={Logo} className="card-logo" />
@@ -74,8 +76,8 @@ const Blog = () => {
 			</div>
 			<div className="bottom-sheet">
 				<div className="bts-content">
-				<div className="make-meet">
-					<a className="meet-button" href={'https://wa.me/' + card.whatsapp}>
+					<div className="make-meet">
+						<a className="meet-button" href={'https://wa.me/' + card.telefone}>
 							<img src={Meet} className="meet-icon" />
 							<h3>Agendar uma reunião!</h3>
 						</a>

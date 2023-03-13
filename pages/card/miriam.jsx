@@ -20,17 +20,19 @@ const Blog = () => {
 		nome: 'Miriam Almeida',
 		email: 'miriam.almeida@ateei.com.br',
 		slug: 'Miriam',
-		fotoUrl:'https://firebasestorage.googleapis.com/v0/b/siteateei.appspot.com/o/Captura%20de%20Tela%202023-02-16%20a%CC%80s%2008.44.28.png?alt=media&token=6c258927-e68e-4d06-b180-09de5d092198',
+		fotoUrl:
+			'https://firebasestorage.googleapis.com/v0/b/siteateei.appspot.com/o/Captura%20de%20Tela%202023-02-16%20a%CC%80s%2008.44.28.png?alt=media&token=6c258927-e68e-4d06-b180-09de5d092198',
 		funcao: 'Analista de Novos Negócios',
 		instagram: 'https://instagram.com/miriam.almeida.leite/',
 		linkedin: 'https://www.linkedin.com/in/miriam-almeida-leite-69806439/',
 		telefone: '+5541991051310',
 		localizacao: 'maps.google.com',
-		resumo: 'Profissional que se destaca pela conduta de trabalho. Tem senso de justiça apurado, capacidade técnica e excelente espírito de equipe. De personalidade forte e marcante, age sempre com integridade e possui habilidade genuína de transformar problemas em oportunidades!Busca continuamente melhorar seus processos e atendimento, para facilitar o andamento da negociação! Ama pôr do sol e uma boa xícara de café, preto e sem açúcar! Sim, também possui fraquezas, e chocolate é uma delas! Conte comigo para viabilizar suas ideias e projetos.  Juntos podemos tornar possível!',
-	}
+		resumo:
+			'Profissional que se destaca pela conduta de trabalho. Tem senso de justiça apurado, capacidade técnica e excelente espírito de equipe. De personalidade forte e marcante, age sempre com integridade e possui habilidade genuína de transformar problemas em oportunidades!Busca continuamente melhorar seus processos e atendimento, para facilitar o andamento da negociação! Ama pôr do sol e uma boa xícara de café, preto e sem açúcar! Sim, também possui fraquezas, e chocolate é uma delas! Conte comigo para viabilizar suas ideias e projetos.  Juntos podemos tornar possível!'
+	};
 
 	return (
-		<Layout pageTitle={card.nome +" | Digital Card"}>
+		<Layout pageTitle={card.nome + ' | Digital Card'}>
 			<div className="digital-card-bg">
 				<a href="">
 					<img src={Logo} className="card-logo" />
@@ -75,7 +77,7 @@ const Blog = () => {
 			<div className="bottom-sheet">
 				<div className="bts-content">
 					<div className="make-meet">
-					<a className="meet-button" href={'https://wa.me/' + card.whatsapp}>
+						<a className="meet-button" href={'https://wa.me/' + card.telefone}>
 							<img src={Meet} className="meet-icon" />
 							<h3>Agendar uma reunião!</h3>
 						</a>
