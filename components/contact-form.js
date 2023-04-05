@@ -38,7 +38,7 @@ const ContactForm = () => {
 			}
 		};
 		setLoading(true);
-		fetch('https://windfallinstitute.com.br:3001/ateei/mail', options)
+		fetch('https://sitemail.ateei.com.br/ateei/mail', options)
 			.then((response) => {
 				if (response.status != 200) {
 					setAlertMessage('Algo deu errado');
