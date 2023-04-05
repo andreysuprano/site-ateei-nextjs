@@ -21,7 +21,7 @@ const ContactForm = () => {
 			setAlertMessage('Todos os campos são obrigatórios');
 			setHeading('Erro');
 			setAlertVariation('danger');
-			setShow(true);
+			return setShow(true);
 		}
 
 		const options = {
