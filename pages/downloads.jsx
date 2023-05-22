@@ -8,7 +8,7 @@ import MobileNav from "@components/mobile-nav";
 
 const BlogDetails = () => {
   return (
-    <Layout pageTitle="Ateei Group | Representantes">
+    <Layout pageTitle="Ateei Group | Downloads">
       <HeaderTwo />
       <MobileNav />
       <PageHeader title={`Downloads`} />
