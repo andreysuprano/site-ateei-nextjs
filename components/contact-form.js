@@ -48,14 +48,14 @@ const ContactForm = () => {
 					setLoading(false);
 					return;
 				}
-				setAlertMessage('Aguarde em breve nosso time comercial entrara em contato!');
+				setAlertMessage('Em breve nosso time comercial entrará em contato com você!');
 				setAlertVariation('success');
-				setHeading('Sucesso');
+				setHeading('Muito bem!');
 				setShow(true);
 				setLoading(false);
 			})
-			.catch(() => {
-				setAlertMessage('Algo deu errado');
+			.catch((err) => {
+				setAlertMessage('Algo deu errado: '+ err);
 				setAlertVariation('danger');
 				setHeading('Erro');
 				setShow(true);
