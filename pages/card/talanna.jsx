@@ -23,7 +23,7 @@ const card = {
 	funcao: 'Analista Comercial',
 	instagram: 'https://instagram.com/talanna_balzer?igshid=MmIzYWVlNDQ5Yg==',
 	linkedin: 'https://www.linkedin.com/in/talanna-balzer-22a515140/',
-	telefone: '+5541991752196',
+	telefone: '+5541984875103',
 	localizacao: 'maps.google.com',
 	resumo:
 		'Reconhecida por ser comunicativa e assertiva, possuindo uma carreira profissional de formações na área e excelente desempenho em meus compromissos e metas. Tendo liderança e dedicação, consigo passar com bom humor os desafios do dia a dia, mantendo o foco nos objetivos. Gosto de agilidade e resultados, assim como alcançar as minhas metas e da equipe na qual estou inserida. Viso a importância dos exercícios físicos, assim como os laços sociais, sendo apaixonada pelo que faço e mantendo sempre um sorriso no rosto. E sempre disposta a novos desafios do nosso dia a dia.'
