@@ -20,7 +20,7 @@ const card = {
 	fotoUrl:
 		'https://firebasestorage.googleapis.com/v0/b/projetcs-storage.appspot.com/o/ateei%2FCaptura%20de%20tela%202023-09-27%20122148.png?alt=media&token=e99904f2-3e71-4b83-a557-dc92f49f0be4',
 	slug: 'Talanna',
-	funcao: 'Assistente Comercial',
+	funcao: 'Analista Comercial',
 	instagram: 'https://instagram.com/talanna_balzer?igshid=MmIzYWVlNDQ5Yg==',
 	linkedin: 'https://www.linkedin.com/in/talanna-balzer-22a515140/',
 	telefone: '+5541991752196',
