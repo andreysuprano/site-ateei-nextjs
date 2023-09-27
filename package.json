@@ -5,9 +5,9 @@
   "author": "Andrey Suprano",
   "license": "MIT",
   "scripts": {
-    "dev": "next dev --openssl-legacy-provider",
-    "build": "next build --openssl-legacy-provider",
-    "start": "next start --openssl-legacy-provider"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "bootstrap": "^4.5.3",
