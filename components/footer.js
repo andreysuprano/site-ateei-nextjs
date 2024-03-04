@@ -68,12 +68,12 @@ const Footer = () => {
 							<div className="footer-widget footer-widget__links-widget">
 								<h3 className="footer-widget__title">Produtos</h3>
 								<ul className="list-unstyled footer-widget__links">
-									<li>
+									{/* <li>
 										<a href="/downloads">Anunciador ME</a>
 									</li>
 									<li>
 										<a href="/downloads">Antron</a>
-									</li>
+									</li> */}
 									<li>
 										<a href="/downloads">Downloads</a>
 									</li>
@@ -82,7 +82,7 @@ const Footer = () => {
 						</Col>
 						<Col sm={12} md={6} lg={6} xl={3}>
 							<div className="footer-widget footer-widget__contact">
-								<h3 className="footer-widget__title">Matriz</h3>
+								<h3 className="footer-widget__title">Endereço</h3>
 
 								<p>Rua Com. Mariano Torres, 168 - Ouro Verde, Campo Largo - PR</p>
 								<ul className="footer-widget__contact-list list-unstyled">

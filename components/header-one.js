@@ -57,7 +57,7 @@ const HeaderOne = () => {
             </div>
             <div className="header-info">
               <i className="far fa-map-marker-alt"></i>
-              <h3>Matriz,Rua Com. Mariano Torres, 168</h3>
+              <h3>Rua Com. Mariano Torres, 168</h3>
               <p>Campo Largo - PR, Brasil</p>
             </div>
           </div>

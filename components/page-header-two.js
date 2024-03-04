@@ -1,17 +1,18 @@
 import React from 'react';
+import bgImage from '@images/backgrounds/slider-bg-1-2.jpg';
+import { TEAM_DATA } from '@data/index';
 import { Container } from 'react-bootstrap';
 import TeamCard from '@components/team-card';
-import { TEAM_DATA } from '@data/index';
 
-const Team = () => {
+const PageHeaderTwo = ({ title }) => {
 	return (
-		<section className="team-one" id="team">
+		<section className="page-header" style={{ backgroundImage: `url(${bgImage})`, marginTop: '-75px' }}>
 			<Container>
 				<div className="block-title text-center">
 					<p>
 						<span />Nossos produtos
 					</p>
-					<h3>
+					<h3 style={{ color: 'white' }}>
 						Conheça a linha de produtos <br /> <span>ATEEI Group</span>
 					</h3>
 				</div>
@@ -24,4 +25,4 @@ const Team = () => {
 	);
 };
 
-export default Team;
+export default PageHeaderTwo;

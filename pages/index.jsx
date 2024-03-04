@@ -14,7 +14,7 @@ import Subscribe from "@components/subscribe";
 import Footer from "@components/footer";
 import CookieConsent from "react-cookie-consent";
 import ModalAlerta from '../components/modal';
-
+import Project from "@components/project";
 const Index = () => {
   return (
     <>
@@ -29,6 +29,7 @@ const Index = () => {
       <Services />
       <Quality />
       <Institutional />
+      {/* <Project/> */}
       <ContactTop />
       <ContactForm />
       <Subscribe />
