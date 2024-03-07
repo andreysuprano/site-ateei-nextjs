@@ -9,7 +9,7 @@ import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import Table from 'react-bootstrap/Table';
 
-import BG_IMAGE from '@images/IMG_9519.jpg';
+import BG_IMAGE from '@images/pageheader/2.png';
 import { DOWNLOADS } from '../../data/downloads';
 
 const BlogDetails = () => {
@@ -17,7 +17,7 @@ const BlogDetails = () => {
 		<Layout pageTitle="Ateei Group | Produto">
 			<HeaderOne />
 			<MobileNav />
-			<PageHeader title={`Carregador de Bateria AT160`} bgImage={BG_IMAGE} />
+			<PageHeader title={`Carregador de Bateria AT160 FRN`} bgImage={BG_IMAGE} />
 			<AboutProduct />
 			<section
 				style={{

@@ -38,34 +38,34 @@ const AboutProduct = () => {
 						<div className="about-one__content">
 							<div className="block-title text-left">
 								<h3>
-									Monitoramento e<br /> <span>Segurança</span>
+									Monitoramento e<br /> <span>Robustez</span>
 								</h3>
-							</div>
-
-							<div className="about-one__box">
-								<i className="besit-icon-clock1" />
-								<div className="about-one__box-content">
-									<h3>Identifique rapidamente</h3>
-									<p>
-										Com o anunciador de alarme ME3011B, você obtém muito mais do que um simples
-										dispositivo. Este é o seu aliado visual, projetado para capturar identificadores
-										cruciais com cores vibrantes e texto claro. Cada componente deste produto é
-										selecionado com cuidado, garantindo qualidade superior em cada detalhe da
-										montagem.
-									</p>
-								</div>
 							</div>
 
 							<div className="about-one__box">
 								<i className="besit-icon-medal" />
 								<div className="about-one__box-content">
-									<h3>Personalização​</h3>
+									<h3>Praticidade e confiança!</h3>
 									<p>
-										Feito sob medida para atender às suas necessidades operacionais e às
-										especificações únicas do seu espaço de controle, este anunciador não apenas se
-										adapta perfeitamente, mas também se destaca pela sua capacidade de
-										personalização. Seja horizontal ou vertical, em salas de qualquer tamanho, ele
-										se encaixa sem esforço, proporcionando uma integração harmoniosa.
+										Equipamento projetado para atender as necessidades de sinalizações, anunciação
+										de alarmes e emergências. Utilizado grande parte por industrias, subestações,
+										hospitais e diversos outros ambientes.
+									</p>
+									<p>
+										O Antron Confere Segurança a diversos setores, que exigem monitoramento
+										constante, contando com alertas visuais e sonoros, o equipamento gera de forma
+										simples, recursos de controle, supervisão e telecomando; Capacidades de
+										atendimento:
+										<br />
+										<br />
+										•⁠ ⁠A Sinalização obedece a uma sequência estabelecida por norma (ISA)
+										<br />
+										<br />
+										•⁠ ⁠Oferece função de comunicação para a automação de um processo ou subestação
+										<br />
+										<br />
+										•⁠ ⁠Ofertado nas seguintes configurações de pontos: 8, 16, 24, 32, 40, 48, 56,
+										64, 72, 80, 88 ou 96 pontos.
 									</p>
 								</div>
 							</div>

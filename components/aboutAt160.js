@@ -43,29 +43,25 @@ const AboutProduct = () => {
 							</div>
 
 							<div className="about-one__box">
-								<i className="besit-icon-clock1" />
+								<i className="themify-icon-world" />
 								<div className="about-one__box-content">
-									<h3>Identifique rapidamente</h3>
+									<h3>Carregador Smart</h3>
 									<p>
-										Com o anunciador de alarme ME3011B, você obtém muito mais do que um simples
-										dispositivo. Este é o seu aliado visual, projetado para capturar identificadores
-										cruciais com cores vibrantes e texto claro. Cada componente deste produto é
-										selecionado com cuidado, garantindo qualidade superior em cada detalhe da
-										montagem.
+										O AT160FRN é um carregador Smart debaterias com diversos alarmes para controle e
+										monitoramento. Tem potência de 160W, proteção contra sobre tensão e
+										surtos.Possui 5 saídas de alarme, entrada de teste de bateria e suporta até 3
+										fontes independentes. É completo para monitorar e caregar sistemas de baterias,
+										com indicador LED, fusíveis de proteção e é adaptável para diferentes
+										configurações de bateria. Aprovado em 7 ensaios para imunidade a interferências
+										elétricas.
 									</p>
-								</div>
-							</div>
-
-							<div className="about-one__box">
-								<i className="besit-icon-medal" />
-								<div className="about-one__box-content">
-									<h3>Personalização​</h3>
+									<br />
 									<p>
-										Feito sob medida para atender às suas necessidades operacionais e às
-										especificações únicas do seu espaço de controle, este anunciador não apenas se
-										adapta perfeitamente, mas também se destaca pela sua capacidade de
-										personalização. Seja horizontal ou vertical, em salas de qualquer tamanho, ele
-										se encaixa sem esforço, proporcionando uma integração harmoniosa.
+										Um carregador para baterias de 24V / 12Ah (comumente utilizado em sistema com
+										duas baterias ligadas em série - 2x12V - 12Ah) e opera como sistema de
+										alimentação para equipamentos que fazem uso de baterias, mantendo sua operação
+										mesmo sem alimentação principal do sistema, Aprovado em diversas normas; Conheça
+										mais em nosso manual;
 									</p>
 								</div>
 							</div>

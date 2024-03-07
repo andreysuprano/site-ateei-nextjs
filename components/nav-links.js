@@ -77,11 +77,11 @@ const NavLinks = (page) => {
 					Contato
 				</ScrollLink>
 			</li>
-			<li>
+			{/* <li>
 				<Link href="/downloads">
 					<a>Downloads</a>
 				</Link>
-			</li>
+			</li> */}
 			<li>
 				<Link href="/produtos">
 					<a>Produtos</a>

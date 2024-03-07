@@ -9,7 +9,7 @@ import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import Table from 'react-bootstrap/Table';
 
-import BG_IMAGE from '@images/IMG_9494.jpg';
+import BG_IMAGE from '@images/pageheader/4.png';
 import { DOWNLOADS } from '../../data/downloads';
 
 const BlogDetails = () => {

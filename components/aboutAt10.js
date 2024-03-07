@@ -43,29 +43,29 @@ const AboutProduct = () => {
 							</div>
 
 							<div className="about-one__box">
-								<i className="besit-icon-clock1" />
+								<i className="themify-icon-dashboard" />
 								<div className="about-one__box-content">
-									<h3>Identifique rapidamente</h3>
+									<h3>Eficiência energética</h3>
 									<p>
-										Com o anunciador de alarme ME3011B, você obtém muito mais do que um simples
-										dispositivo. Este é o seu aliado visual, projetado para capturar identificadores
-										cruciais com cores vibrantes e texto claro. Cada componente deste produto é
-										selecionado com cuidado, garantindo qualidade superior em cada detalhe da
-										montagem.
+										Esse produto foi desenvolvido para controlar contatores sem retenção mecânica,
+										oferecendo uma ampla faixa de alimentação,retardo de abertura programável, alta
+										eficiência energética, proteção contra interferência eletromagnética e
+										acapacidadede alimentar várias versões de contatores com uma única fontede
+										energia.
 									</p>
 								</div>
 							</div>
 
 							<div className="about-one__box">
-								<i className="besit-icon-medal" />
+								<i className="themify-icon-settings" />
 								<div className="about-one__box-content">
-									<h3>Personalização​</h3>
+									<h3>Programável</h3>
 									<p>
-										Feito sob medida para atender às suas necessidades operacionais e às
-										especificações únicas do seu espaço de controle, este anunciador não apenas se
-										adapta perfeitamente, mas também se destaca pela sua capacidade de
-										personalização. Seja horizontal ou vertical, em salas de qualquer tamanho, ele
-										se encaixa sem esforço, proporcionando uma integração harmoniosa.
+										A Fonte AT10 FRN destina-se a alimentar e controlar o dispositivo de Abertura e
+										Fechamento de Contatores de MT da Família INCV sem retenção mecânica. Esta fonte
+										destaca-se pela ampla faixa de alimentação (90 a 240Vac ou 125 a 340Vcc) sem a
+										necessidade de qualquer configuração. Além disto, dispõe de dispositivo de
+										retardo de abertura (100 a 500ms) programável através da chave Dip Switch.
 									</p>
 								</div>
 							</div>
