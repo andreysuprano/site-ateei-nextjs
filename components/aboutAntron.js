@@ -54,8 +54,9 @@ const AboutProduct = () => {
 									<p>
 										O Antron Confere Segurança a diversos setores, que exigem monitoramento
 										constante, contando com alertas visuais e sonoros, o equipamento gera de forma
-										simples, recursos de controle, supervisão e telecomando; Capacidades de
-										atendimento:
+										simples, recursos de controle, supervisão e telecomando;
+										<br />
+										Capacidades de atendimento:
 										<br />
 										<br />
 										•⁠ ⁠A Sinalização obedece a uma sequência estabelecida por norma (ISA)

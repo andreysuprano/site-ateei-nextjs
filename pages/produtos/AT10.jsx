@@ -17,7 +17,7 @@ const BlogDetails = () => {
 		<Layout pageTitle="Ateei Group | Produto">
 			<HeaderOne />
 			<MobileNav />
-			<PageHeader title={`Carregador de Baterias AT10 FRN`} bgImage={BG_IMAGE} />
+			<PageHeader title={`Fonte de Alimentação AT10 FRN`} bgImage={BG_IMAGE} />
 			<AboutProduct />
 			<section
 				style={{

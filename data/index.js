@@ -186,12 +186,12 @@ export const TEAM_DATA = [
 	},
 	{
 		image: team2,
-		name: 'AT10',
-		designation: 'Carregador de baterias'
+		name: 'AT10 FRN',
+		designation: 'Fonte de Alimentação'
 	},
 	{
 		image: team4,
-		name: 'AT160',
+		name: 'AT160FRN',
 		designation: 'Carregador de baterias'
 	}
 ];

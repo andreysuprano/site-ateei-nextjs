@@ -38,7 +38,7 @@ const AboutProduct = () => {
 						<div className="about-one__content">
 							<div className="block-title text-left">
 								<h3>
-									Monitoramento e<br /> <span>Segurança</span>
+									Eficiência e<br /> <span>Confiabilidade</span>
 								</h3>
 							</div>
 
@@ -48,9 +48,9 @@ const AboutProduct = () => {
 									<h3>Eficiência energética</h3>
 									<p>
 										Esse produto foi desenvolvido para controlar contatores sem retenção mecânica,
-										oferecendo uma ampla faixa de alimentação,retardo de abertura programável, alta
-										eficiência energética, proteção contra interferência eletromagnética e
-										acapacidadede alimentar várias versões de contatores com uma única fontede
+										oferecendo uma ampla faixa de alimentação, retardo de abertura programável, alta
+										eficiência energética, proteção contra interferência eletromagnética e a
+										capacidadede alimentar várias versões de contatores com uma única fontede
 										energia.
 									</p>
 								</div>

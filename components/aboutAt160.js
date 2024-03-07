@@ -38,7 +38,7 @@ const AboutProduct = () => {
 						<div className="about-one__content">
 							<div className="block-title text-left">
 								<h3>
-									Monitoramento e<br /> <span>Segurança</span>
+									Eficiência e<br /> <span>Confiabilidade</span>
 								</h3>
 							</div>
 
@@ -47,13 +47,12 @@ const AboutProduct = () => {
 								<div className="about-one__box-content">
 									<h3>Carregador Smart</h3>
 									<p>
-										O AT160FRN é um carregador Smart debaterias com diversos alarmes para controle e
-										monitoramento. Tem potência de 160W, proteção contra sobre tensão e
-										surtos.Possui 5 saídas de alarme, entrada de teste de bateria e suporta até 3
-										fontes independentes. É completo para monitorar e caregar sistemas de baterias,
-										com indicador LED, fusíveis de proteção e é adaptável para diferentes
-										configurações de bateria. Aprovado em 7 ensaios para imunidade a interferências
-										elétricas.
+										O AT160FRN é um carregador Smart de baterias com diversos alarmes para controle
+										e monitoramento. Tem potência de 160W, proteção contra sobre tensão e surtos.
+										Possui 5 saídas de alarme, entrada de teste de bateria e suporta até 3 fontes
+										independentes. É completo para monitorar e carregar sistemas de baterias, com
+										indicador LED, fusíveis de proteção e é adaptável para diferentes configurações
+										de bateria. Aprovado em 7 ensaios para imunidade a interferências elétricas.
 									</p>
 									<br />
 									<p>
