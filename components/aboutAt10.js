@@ -50,7 +50,7 @@ const AboutProduct = () => {
 										Esse produto foi desenvolvido para controlar contatores sem retenção mecânica,
 										oferecendo uma ampla faixa de alimentação, retardo de abertura programável, alta
 										eficiência energética, proteção contra interferência eletromagnética e a
-										capacidadede alimentar várias versões de contatores com uma única fontede
+										capacidadede alimentar várias versões de contatores com uma única fonte de
 										energia.
 									</p>
 								</div>

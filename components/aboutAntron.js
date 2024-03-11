@@ -52,7 +52,7 @@ const AboutProduct = () => {
 										hospitais e diversos outros ambientes.
 									</p>
 									<p>
-										O Antron Confere Segurança a diversos setores, que exigem monitoramento
+										O Antron confere segurança a diversos setores, que exigem monitoramento
 										constante, contando com alertas visuais e sonoros, o equipamento gera de forma
 										simples, recursos de controle, supervisão e telecomando;
 										<br />

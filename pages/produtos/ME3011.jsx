@@ -17,7 +17,7 @@ const BlogDetails = () => {
 		<Layout pageTitle="Ateei Group | Produto">
 			<HeaderOne />
 			<MobileNav />
-			<PageHeader title={`Anunciadore de Alarme ME3011b`} bgImage={BG_IMAGE} />
+			<PageHeader title={`Anunciador de Alarme ME3011b`} bgImage={BG_IMAGE} />
 			<AboutProduct />
 			<section
 				style={{
