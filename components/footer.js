@@ -78,7 +78,7 @@ const Footer = () => {
 										<a href="/produtos">Nossa linha</a>
 									</li>
 									<li>
-										<a href="/produtos/ME3011">ME3011B</a>
+										<a href="/produtos/ME3011b">ME3011B</a>
 									</li>
 									<li>
 										<a href="/produtos/Antron">Antron</a>
