@@ -176,7 +176,7 @@ import team4 from '@images/team/4.png';
 export const TEAM_DATA = [
 	{
 		image: team1,
-		name: 'ME3011',
+		name: 'ME3011b',
 		designation: 'Anunciador de Alarme'
 	},
 	{
@@ -186,12 +186,12 @@ export const TEAM_DATA = [
 	},
 	{
 		image: team2,
-		name: 'AT10',
-		designation: 'Carregador de baterias'
+		name: 'AT10 FRN',
+		designation: 'Fonte de Alimentação'
 	},
 	{
 		image: team4,
-		name: 'AT160',
+		name: 'AT160FRN',
 		designation: 'Carregador de baterias'
 	}
 ];

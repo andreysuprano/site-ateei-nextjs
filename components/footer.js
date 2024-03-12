@@ -56,7 +56,7 @@ const Footer = () => {
 										<a href="#qualidade">Qualidade</a>
 									</li>
 									<li>
-										<a href="https://www.downloads.ateei.com.br/">Downloads</a>
+										<a href="/produtos">Downloads</a>
 									</li>
 									<li>
 										<a href="#contact">Contato</a>
@@ -75,7 +75,19 @@ const Footer = () => {
 										<a href="/downloads">Antron</a>
 									</li> */}
 									<li>
-										<a href="/downloads">Downloads</a>
+										<a href="/produtos">Nossa linha</a>
+									</li>
+									<li>
+										<a href="/produtos/ME3011b">ME3011B</a>
+									</li>
+									<li>
+										<a href="/produtos/Antron">Antron</a>
+									</li>
+									<li>
+										<a href="/produtos/AT10">AT10</a>
+									</li>
+									<li>
+										<a href="/produtos/AT160">AT160</a>
 									</li>
 								</ul>
 							</div>

@@ -1,21 +1,102 @@
 import React from 'react';
 import Layout from '@components/layout';
 import HeaderOne from '@components/header-one';
-import About from '@components/about';
-import BlogContent from '@components/blog-content';
+import AboutProduct from '@components/aboutAntron';
 import PageHeader from '@components/page-header';
 import Footer from '@components/footer';
 import MobileNav from '@components/mobile-nav';
-import Project from '@components/project';
+import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
+import Table from 'react-bootstrap/Table';
+
+import BG_IMAGE from '@images/pageheader/4.png';
+import { DOWNLOADS } from '../../data/downloads';
 
 const BlogDetails = () => {
 	return (
 		<Layout pageTitle="Ateei Group | Produto">
 			<HeaderOne />
 			<MobileNav />
-			<PageHeader title={`ME3011b`} />
-			<About />
-			<Project />
+			<PageHeader title={`Anunciador de Alarme Antron`} bgImage={BG_IMAGE} />
+			<AboutProduct />
+			<section
+				style={{
+					width: '100%',
+					display: 'flex',
+					justifyContent: 'center',
+					alignItems: 'center',
+					flexDirection: 'column',
+					paddingBottom: 200,
+					paddingTop: 100
+				}}
+			>
+				<h2>Downloads</h2>
+				<div style={{ width: '65%' }}>
+					<Tabs defaultActiveKey="manuais" id="uncontrolled-tab-example" className="mb-3">
+						<Tab eventKey="manuais" title="Manuais">
+							<Table responsive>
+								<thead>
+									<tr>
+										<td />
+										<th key={1}>Arquivo</th>
+										<th>Download</th>
+									</tr>
+								</thead>
+								<tbody>
+									{DOWNLOADS.filter((item) => item.produto == 'ANTRON')
+										.filter((item) => item.tipo == 'm')
+										.map((item, index) => {
+											if (index == -1) {
+												return (
+													<tr>
+														<td>-</td>
+														<td>Nenhum item disponível</td>
+														<td>
+															<a href={item.link}>-</a>
+														</td>
+													</tr>
+												);
+											}
+											return (
+												<tr>
+													<td>{index + 1}</td>
+													<td>{item.nome}</td>
+													<td>
+														<a href={item.link}>Baixar</a>
+													</td>
+												</tr>
+											);
+										})}
+								</tbody>
+							</Table>
+						</Tab>
+						<Tab eventKey="softwares" title="Softwares">
+							<Table responsive>
+								<thead>
+									<tr>
+										<td />
+										<th key={1}>Arquivo</th>
+										<th>Download</th>
+									</tr>
+								</thead>
+								<tbody>
+									{DOWNLOADS.filter((item) => item.produto == 'ANTRON')
+										.filter((item) => item.tipo == 's')
+										.map((item, index) => (
+											<tr>
+												<td>{index + 1}</td>
+												<td>{item.nome}</td>
+												<td>
+													<a href={item.link}>Baixar</a>
+												</td>
+											</tr>
+										))}
+								</tbody>
+							</Table>
+						</Tab>
+					</Tabs>
+				</div>
+			</section>
 			<Footer />
 		</Layout>
 	);
