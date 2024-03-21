@@ -19,7 +19,9 @@ const Index = () => {
   return (
     <>
     <Head>
-      <script src="//code.jivosite.com/widget/gTm2pRzqMY" async></script>
+      {/* <script src="//code.jivosite.com/widget/gTm2pRzqMY" async></script>
+    
+     */}
     </Head>
     <Layout pageTitle="Ateei Group | A Tecnologia ao seu alcance!">
       <HeaderOne />

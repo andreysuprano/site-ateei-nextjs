@@ -24,6 +24,25 @@ export default function MyApp({ Component, pageProps }) {
               })(window,document,'script','dataLayer','GTM-KCDN568')`,
             }}
           />
+
+<script
+            dangerouslySetInnerHTML={{
+              __html: `(function(d,t) {
+                var BASE_URL="https://overgroup-chatwoot-ateei.em5vrs.easypanel.host";
+                var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+                g.src=BASE_URL+"/packs/js/sdk.js";
+                g.defer = true;
+                g.async = true;
+                s.parentNode.insertBefore(g,s);
+                g.onload=function(){
+                  window.chatwootSDK.run({
+                    websiteToken: 'mEJ9trrN7W35T9mJQ7eUKJ32',
+                    baseUrl: BASE_URL
+                  })
+                }
+              })(document,"script");`,
+            }}
+          />
       <Component {...pageProps} />
     </>
     ) 
