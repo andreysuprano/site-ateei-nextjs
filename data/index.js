@@ -176,7 +176,7 @@ import team4 from '@images/team/4.png';
 export const TEAM_DATA = [
 	{
 		image: team1,
-		name: 'ME3011b',
+		name: 'ME3011B',
 		designation: 'Anunciador de Alarme'
 	},
 	{
