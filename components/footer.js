@@ -78,16 +78,16 @@ const Footer = () => {
 										<a href="/produtos">Nossa linha</a>
 									</li>
 									<li>
-										<a href="/produtos/ME3011b">ME3011B</a>
+										<a href="/produtos/ME3011B">ME3011B</a>
 									</li>
 									<li>
 										<a href="/produtos/Antron">Antron</a>
 									</li>
 									<li>
-										<a href="/produtos/AT10">AT10</a>
+										<a href="/produtos/AT10FRN">AT10FRN</a>
 									</li>
 									<li>
-										<a href="/produtos/AT160">AT160</a>
+										<a href="/produtos/AT160FRN">AT160FRN</a>
 									</li>
 								</ul>
 							</div>
