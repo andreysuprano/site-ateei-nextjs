@@ -186,7 +186,7 @@ export const TEAM_DATA = [
 	},
 	{
 		image: team2,
-		name: 'AT10 FRN',
+		name: 'AT10FRN',
 		designation: 'Fonte de Alimentação'
 	},
 	{
