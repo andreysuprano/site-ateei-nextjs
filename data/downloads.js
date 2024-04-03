@@ -116,7 +116,7 @@ export const DOWNLOADS = [
 		produto: 'ANTRON',
 		tipo: 'm',
 		nome: 'Manual Implementação de Protocolo Modbus – Antron II-S',
-		link: 'https://downloads.ateei.com.br/uploads/2017/02/IMPLEMENTA%C3%87%C3%83O-DE-PROTOCOLO-MODBUS-ANTRON-II.pdf'
+		link: 'https://downloads.ateei.com.br/uploads/2017/02/IMPLEMENTAÇÃO-DE-PROTOCOLO-MODBUS-ANTRON-II.pdf'
 	},
 	{
 		produto: 'ANTRON',
