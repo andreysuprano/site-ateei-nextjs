@@ -172,12 +172,18 @@ import team1 from '@images/team/1.png';
 import team2 from '@images/team/2.png';
 import team3 from '@images/team/3.png';
 import team4 from '@images/team/4.png';
+import team5 from '@images/team/5.png';
 
 export const TEAM_DATA = [
 	{
 		image: team1,
 		name: 'ME3011B',
 		designation: 'Anunciador de Alarme'
+	},
+	{
+		image: team5,
+		name: 'MA2016b',
+		designation: 'Sinalizador de Alarme'
 	},
 	{
 		image: team3,
