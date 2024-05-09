@@ -151,5 +151,11 @@ export const DOWNLOADS = [
 		tipo: 'm',
 		nome: 'Manual Fonte de Alimentação Modelo AT10 FRN',
 		link: 'https://downloads.ateei.com.br/uploads/2020/Manual%20AT10%20FRN%20Rev%200.pdf'
+	},
+	{
+		produto: 'MA2016b',
+		tipo: 'm',
+		nome: 'Manual de Instruções MA2016B',
+		link: 'https://downloads.ateei.com.br/uploads/downloads/Manual_MA2016/Manual%20MA%2018%20v04.pdf'
 	}
 ];
