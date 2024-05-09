@@ -1,6 +1,4 @@
 import React from 'react';
-import { useRouter } from 'next/router';
-import { useState } from 'react';
 
 import Layout from '@components/layout';
 import Instagram from '../../assets/images/icons/instagram.svg';
@@ -11,9 +9,6 @@ import Meet from '../../assets/images/icons/meet.svg';
 import Link from '../../assets/images/icons/link.svg';
 import Logo from '../../assets/images/logo-light.png';
 import Footer from '../../components/footer';
-
-import { CARD_DATA } from '@data/cards';
-import { useEffect } from 'react';
 
 const Blog = () => {
 	const card = {

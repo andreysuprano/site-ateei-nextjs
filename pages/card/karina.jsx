@@ -12,9 +12,6 @@ import Link from '../../assets/images/icons/link.svg';
 import Logo from '../../assets/images/logo-light.png';
 import Footer from '../../components/footer';
 
-import { CARD_DATA } from '@data/cards';
-import { useEffect } from 'react';
-
 const Blog = () => {
 	const card = {
 		nome: 'Karina Lima',
