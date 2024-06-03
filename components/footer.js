@@ -61,6 +61,9 @@ const Footer = () => {
 									<li>
 										<a href="#contact">Contato</a>
 									</li>
+									<li>
+										<a href="#contact">Trabalhe Conosco</a>
+									</li>
 								</ul>
 							</div>
 						</Col>

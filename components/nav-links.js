@@ -87,6 +87,12 @@ const NavLinks = (page) => {
 					<a>Produtos</a>
 				</Link>
 			</li>
+
+			<li>
+				<Link href="/trabalhe-conosco">
+					<a>Trabalhe Conosco</a>
+				</Link>
+			</li>
 		</ul>
 	);
 };
