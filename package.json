@@ -12,6 +12,7 @@
   "dependencies": {
     "bootstrap": "^4.5.3",
     "eslint-config-next": "12",
+    "firebase": "^10.12.2",
     "next": "12",
     "next-images": "^1.6.2",
     "react": "17",
@@ -23,6 +24,7 @@
     "simple-react-lightbox": "^3.3.4-2",
     "swiper": "^6.3.5",
     "typeface-heebo": "^1.1.13",
-    "typeface-roboto": "^1.1.13"
+    "typeface-roboto": "^1.1.13",
+    "uuid": "^9.0.1"
   }
 }
