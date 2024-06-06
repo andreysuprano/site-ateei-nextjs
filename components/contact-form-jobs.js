@@ -41,7 +41,7 @@ const ContactForm = () => {
 				email,
 				telefone,
 				setor,
-				arquivo: link
+				arquivo: link,
 			}
 
 			fetch('https://andreysuprano-n8n.em5vrs.easypanel.host/webhook/send-mail', {
@@ -54,9 +54,7 @@ const ContactForm = () => {
 
 			setLoading(false);
 			setShow(true)
-		}).catch(err){
-			console.log(err)
-		};
+		})
 	};
 
 	const handleClose = () => {
