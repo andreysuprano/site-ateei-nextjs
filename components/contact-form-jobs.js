@@ -36,14 +36,12 @@ const ContactForm = () => {
 	const handleForm = () => {
 		setLoading(true);
 		uploadWithBase64(arquivo).then((link)=>{
-			setArquivoLink(link)
-
 			const data = {
 				nome,
 				email,
 				telefone,
 				setor,
-				arquivo: arquivoLink
+				arquivo: link
 			}
 
 			fetch('https://andreysuprano-n8n.em5vrs.easypanel.host/webhook/send-mail', {
@@ -56,7 +54,9 @@ const ContactForm = () => {
 
 			setLoading(false);
 			setShow(true)
-		});
+		}).catch(err){
+			console.log(err)
+		};
 	};
 
 	const handleClose = () => {
