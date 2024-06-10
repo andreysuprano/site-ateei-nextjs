@@ -4,6 +4,8 @@ import { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import { uploadWithBase64 } from 'utils/firebase-utils';
 
+{/* <i className={icon}></i>besit-icon-leader */}
+
 const ContactForm = () => {
 	const [ nome, setNome ] = useState();
 	const [ loading, setLoading ] = useState(false);
@@ -53,7 +55,7 @@ const ContactForm = () => {
 			})
 
 			setLoading(false);
-			setShow(true)
+			setShow(true);
 		})
 	};
 
@@ -64,18 +66,9 @@ const ContactForm = () => {
 
 	return (
 		<section className="contact-one">
-			<Modal show={show} onHide={handleClose}>
-				<Modal.Header closeButton>
-					<Modal.Title>{heading}</Modal.Title>
-				</Modal.Header>
-				<Modal.Body>Sua candidatura foi enviada com sucesso, nosso time de recrutamento entrará em contato com você, <br></br>Obrigado por querer construir história com a Ateei!</Modal.Body>
-				<Modal.Footer>
-					<Button variant="secondary" onClick={handleClose}>
-						Fechar
-					</Button>
-				</Modal.Footer>
-			</Modal>
 			<Container style={{ marginBottom: '100px' }}>
+				{
+					!show ? 
 				<div className="inner-container">
 					<Row className="align-items-end">
 						<div className="col-sm-12 col-md-12 text-center text-md-center text-lg-center text-xl-left" />
@@ -155,6 +148,17 @@ const ContactForm = () => {
 						</div>
 					</Row>
 				</div>
+				:
+				<div className="inner-container">
+					<Row className="align-items-center justify-content-center h-200" style={{height:200}}>
+						<div className="align-items-center justify-content-center" >
+								<i className="besit-icon-leader" style={{fontSize:100, color:'#b5c84b', marginBottom:'20px', textAlign:'center'}} ></i>
+								<h3 style={{ marginTop:'20px'}}>Candidatura Enviada com Sucesso!</h3>
+						</div>
+					</Row>
+				</div>
+				}
+				
 			</Container>
 		</section>
 	);
