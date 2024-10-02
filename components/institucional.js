@@ -22,7 +22,6 @@ const Institutional = () => {
           
           <br></br><br></br>A Ateei Group utiliza todo o seu conhecimento e experiência para prestar serviços diversificados visando o aumento da competitividade de seus clientes como: administração de logística de insumos, montagem de placas utilizando a tecnologia de superfície (SMT) e a tecnologia tradicional (THT), além do desenvolvimento de projetos e testes funcionais.
           <br></br><br></br>
-          A Ateei Group está sempre em busca da excelência para colocar à disposição de seus clientes sem deixar de adaptar os produtos às suas necessidades específicas.
           </p>
         </div>
         <div className="service-one__3-col">
