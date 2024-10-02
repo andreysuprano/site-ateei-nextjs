@@ -102,7 +102,7 @@ const Footer = () => {
 								<p>Rua Com. Mariano Torres, 168 - Ouro Verde, Campo Largo - PR</p>
 								<ul className="footer-widget__contact-list list-unstyled">
 									<li>
-										<a href="mailto:your.info@gmail.com">
+										<a href="mailto:ateei@ateei.com.br">
 											<i className="themify-icon-email" />
 											ateei@ateei.com.br
 										</a>
