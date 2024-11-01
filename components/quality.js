@@ -31,7 +31,7 @@ const Quality = () => {
                   <p>
                   Possuímos excelência em nossos processos, garantindo que eles estão sendo gerenciados e em constante evolução.
                   </p>
-                  <u><a style={{color:'#182c44'}}  href='https://downloads.ateei.com.br/ISOS_CERTIFICATES/ISO%209001%20%282021%29.pdf'>Ver certificado ⧉</a></u>
+                  <u><a style={{color:'#182c44'}}  href='https://downloads.ateei.com.br/ISOS_CERTIFICATES/Cert_ISO%209001%202015_28.10.2024_pt.pdf'>Ver certificado ⧉</a></u>
                 </div>
               </div>
               <div className="about-one__box">
@@ -41,7 +41,7 @@ const Quality = () => {
                   <p>
                   Possuímos excelência na produção de itens médicos/hospitalares, garantindo que seu produto médico está sendo produzido com os critérios mínimos regulamentados para a fabricação de itens de tal importância.
                   </p>
-                  <u><a style={{color:'#182c44'}} href='https://downloads.ateei.com.br/ISOS_CERTIFICATES/ISO%2013485%20%282021%29.pdf'>Ver certificado ⧉</a></u>
+                  <u><a style={{color:'#182c44'}} href='https://downloads.ateei.com.br/ISOS_CERTIFICATES/Cert_ISO%2013485%202016_28.10.2024_pt.pdf'>Ver certificado ⧉</a></u>
                 </div>
               </div>
             </div>
