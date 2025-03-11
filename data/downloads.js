@@ -149,7 +149,7 @@ export const DOWNLOADS = [
     {
         produto: 'AT160',
         tipo: 'm',
-        nome: 'Manual do Carregador de Bateria Modelo AT160 FRN',
+        nome: 'Manual do Carregador de Bateria Modelo AT160 FRN - Espanhol',
         link: 'https://downloads.ateei.com.br/uploads/downloads/Manual Carregador de Baterias AT160FRN Rev 08 es.pdf'
     },
 
@@ -175,7 +175,7 @@ export const DOWNLOADS = [
     {
         produto: 'MA2016b',
         tipo: 'm',
-        nome: 'Manual de Instruções MA2016B',
+        nome: 'Manual de Instruções MA2016B Espanhol',
         link: 'https://downloads.ateei.com.br/uploads/downloads/Manual MA 2016B v07 - es.pdf'
     }
 
