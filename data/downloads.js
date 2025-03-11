@@ -176,7 +176,7 @@ export const DOWNLOADS = [
         produto: 'MA2016b',
         tipo: 'm',
         nome: 'Manual de Instruções MA2016B Espanhol',
-        link: 'https://downloads.ateei.com.br/uploads/downloads/Manual MA 2016B v07 - es.pdf'
+        link: 'Manual_MA_2016B_v07_es.pdf'
     }
 
 ];
