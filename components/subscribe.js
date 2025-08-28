@@ -16,7 +16,7 @@ const Subscribe = () => {
           </Col>
 
           <Col sm={12} md={12} lg={6}>
-          <iframe width="460" height="265" src="https://www.youtube.com/watch?v=pbGrvb1KAUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="460" height="265" src="https://www.youtube.com/embed/pbGrvb1KAUI?si=WiiLZ7eHlkO6TXbv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </Col>
         </Row>
       </Container>
@@ -25,4 +25,5 @@ const Subscribe = () => {
 };
 
 export default Subscribe;
+
 
