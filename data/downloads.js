@@ -54,6 +54,12 @@ export const DOWNLOADS = [
         nome: 'Manual de Configuração ModBus para ME3011B',
         link: 'https://downloads.ateei.com.br/uploads/downloads/Manual%20Modbus_.rar'
     },
+    {
+        produto: 'ME3011B',
+        tipo: 'm',
+        nome: 'Guia de Aplicação - Integração Anunciador Ateei & SCADA Elipse',
+        link: 'https://downloads.ateei.com.br/uploads/downloads/Guia_de_Aplicação_Integração_ME3011B_SCADA_Elipse.pdf'
+    },
 
     //SW
     {
@@ -71,8 +77,8 @@ export const DOWNLOADS = [
     {
         produto: 'ME3011B',
         tipo: 's',
-        nome: 'Software Easy Connect DNP3 – v5.7.1 – depois/after 12/09/2021',
-        link: 'https://downloads.ateei.com.br/uploads/downloads/EasyConnect_V5.7.1_Setup.rar'
+        nome: 'EasyConnect V 6.17.2 (DNP3).zip – depois/after 12/09/2021',
+        link: 'https://downloads.ateei.com.br/uploads/downloads/EasyConnect_V6.17.2(DNP3).zip'
     },
     {
         produto: 'ME3011B',
