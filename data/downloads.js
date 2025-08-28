@@ -94,18 +94,6 @@ export const DOWNLOADS = [
     },
     {
         produto: 'ME3011B',
-        tipo: 's',
-        nome: 'Software ME3011 View SW',
-        link: 'https://downloads.ateei.com.br/uploads/downloads/me3011_View_SW_setup.rar'
-    },
-    {
-        produto: 'ME3011B',
-        tipo: 's',
-        nome: 'Software ME3011 View SW',
-        link: 'https://downloads.ateei.com.br/uploads/downloads/me3011_View_SW_setup.rar'
-    },
-    {
-        produto: 'ME3011B',
         tipo: 'm',
         nome: 'Página configurada para KIT ASK',
         link: 'https://downloads.ateei.com.br/uploads/downloads/Label%20Ask.rar'
