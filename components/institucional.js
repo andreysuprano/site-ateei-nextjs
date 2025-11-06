@@ -24,14 +24,15 @@ const Institutional = () => {
           <br></br><br></br>
           </p>
         </div>
-        <div className="service-one__3-col">
-          {MISSAO_DATA.map((service, index) => (
-            <ServiceCard data={service} key={`service-card-${index}`} />
-          ))}
-        </div>
+        // <div className="service-one__3-col">
+        //   {MISSAO_DATA.map((service, index) => (
+        //     <ServiceCard data={service} key={`service-card-${index}`} />
+        //   ))}
+        // </div>
       </div>
     </section>
   );
 };
 
 export default Institutional;
+
